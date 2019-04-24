@@ -1,3 +1,12 @@
 main {
     text-align: center;
 }
+
+body {
+    background-color: #282727;
+    color: #C63B65;
+}
+
+a {
+    color: white;
+}
