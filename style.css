@@ -10,3 +10,14 @@ body {
 a {
     color: white;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color:  white;
+        color: black;
+    }
+    
+    a {
+        color: unset;
+    }
+}
