@@ -1,0 +1,37 @@
+# All root domains owned (On a registry level) by Erisa Arrowsmith (erisa.moe)
+# Domains that redirect to domains not in this list may not be in complete control.
+# Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
+
+# Unused.
+ask-me-out-on-a.date
+
+# Private use.
+awau.uk
+
+# Joke redirect, server on sub 'dis' not controlled by Erisa. 
+cord.gift
+
+# Private Seafile.
+erisa.cloud
+
+# Unused.
+erisa.dev
+
+# Unused.
+erisa.life
+
+# Link Shortener
+erisa.link
+
+# You are here.
+erisa.moe 
+
+# Serves legacy content from prior to the existence of erisa.moe.
+fl0.co
+
+# Donated domain for https://whats-th.is, only controlled at a registry and DNS level. 
+# Content served from this domain is not controlled or endorsed by Erisa.
+might-be-super.fun
+
+# Unused, legacy.
+seriel.pw
