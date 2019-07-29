@@ -2,6 +2,8 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
+# Last updated: 2019-07-29 09:31:22 +0100
+
 # Unused.
 ask-me-out-on-a.date
 
