@@ -19,7 +19,7 @@ erisa.cloud
 # Unused.
 erisa.dev
 
-# Unused.
+# Root unused, "living-the" subdomain redirects to cdn.erisa.moe.
 erisa.life
 
 # Link Shortener
