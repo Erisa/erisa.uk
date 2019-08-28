@@ -19,7 +19,7 @@ erisa.cloud
 # GitLab.
 erisa.dev
 
-# Unused.
+# Hosts created games and information about planned ones.
 erisa.games
 
 # Root unused, "living-the" subdomain redirects to cdn.erisa.moe.
