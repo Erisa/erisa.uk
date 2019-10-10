@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-# All root domains owned (On a registry level) by Erisa Arrowsmith (erisa.moe)
+# All root domains owned (On a registry level) by Erisa (erisa.moe)
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
@@ -43,20 +43,19 @@ might-be-super.fun
 
 # Unused, legacy.
 seriel.pw
-
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl2B6+kACgkQQDiHkFv5
-ZKuKKxAApF3YjBqoS/TDvfMQ5yT0t2Ab1DAaE5zsy6vaxHCXM5wfru6jOBwMVkxD
-RjW0E79lsvSca8iVW6VB166wpOGG6JGdVKJeREZZfx9bM0z7q4qJPZp1Yn4aZw9T
-A1UvlzX8uQSFNt7hBeA66RTkcm06mlimrtoDCo146rKztstRGmfDBYzN4LE0X+sd
-X/6uwsuabdTlaP4UcpooUidvaoHm0Dz6e72qqm9vXBlMVgkpQQFDmALpZQHFR3pV
-dSa2mQGL+VdWQmaC4WLxjFCjc+Z36LVS4+oaeybjynMdvzd7T4Dn6X1pQeblBoBA
-FpvchbUkP856iTrqaj5vwMRhfG5QmiGqhJDjqOWrM62IB1OOscUvgP2x3+3Tya4z
-urj2sCR6/gcpsJ3jOYifN+ZQ7y2J4/5mqReaY0cPmqakQhwP4Une4vW/oPPY67Z7
-w83NbYw+rO2w4Nw4vKBVNzzA9jVgSqNW9TTAgfojnpELFxmc1L19geQsdOtE1Hy+
-0HhE39+wmgGlB9OstqU9DwVdgJdh+8G05miJxS1fBXuKzVw+BEmYNqmw+zuKY5xH
-KXX7ICFgqGPVY5KXdncZVKtH22PQyq2xpRy9vLvsUizhNct0BIu9fV7bn33ZWLft
-r0ZvPjTmGakzQeQiRapDI0LuPiuIhK4wWrVDGykGf6iwSe+zPgA=
-=3aoS
+iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl2fR0kACgkQQDiHkFv5
+ZKslfxAAzy6QTYbpG6dlkyGT43QR6K2nXdPZn6/IYX/BIvOVu6Ychsm3vc8b+wCB
+85mi7xTQ/a5PK80OG+40ZhwmINKxQYoz2V2VDjv47uvQy8wdSaPAFPR/gSM9Jeap
+xWDS0NedF04JaJ93prWeCmz1iG6Rz1ioTQOShLUI4Dbek0EMrGMxQhJoZZelCD9F
+zwFhLOSKgfBQyxRcvJdRVgYWs96/FTb+nGqJhX0TEtzmWYEH1kbq1gG/wOCoszuO
+s6WKqioynldBJQW0TKqsjTThxlPBNxt8xhz0DhFc1eRiqCyOfgQyXdlRb20kpQtz
+QccbXEGtDxuhPaMjffTNBVSkd1n1bxV/QftUN0VvKaQK0r8vgibVzvS0zKqct9pz
+Z/zbnXM+A22IVHxejFt5ajdOQ/JL85i4n/6ncyUCnyfiLKfggFua0a7WZwGYaTQv
+YWH2ODq83XMg02h5ufAn6T4PudEfMmunpVOh2tWXrUVU5r1Q4EHYQ0NTSjUHAKiO
+bOSPH3IgaLuuRhT9uGZ/37lzJhM4WMx6KbB++bg1tH6M0vwDdvujZPk8tGzH83uj
+tOYjZXD2dOUAinGkfTXFCBbPkilm3SPQXtgDCVWXkiVxATb3H3yy1q7wVo+vj6n4
+ALUo+ag7hG36CQRKfL6pEr2mfIUOTyWMVXBXTrY0HlJfEoFORWs=
+=LgXy
 -----END PGP SIGNATURE-----
