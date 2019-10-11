@@ -5,10 +5,7 @@ Hash: SHA256
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2019-08-20 23:59:49 +0100
-
-# Unused.
-ask-me-out-on-a.date
+# Last updated: 2019-10-12 00:29:47 +0100
 
 # Private use.
 awau.uk
@@ -45,17 +42,17 @@ might-be-super.fun
 seriel.pw
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl2fR0kACgkQQDiHkFv5
-ZKslfxAAzy6QTYbpG6dlkyGT43QR6K2nXdPZn6/IYX/BIvOVu6Ychsm3vc8b+wCB
-85mi7xTQ/a5PK80OG+40ZhwmINKxQYoz2V2VDjv47uvQy8wdSaPAFPR/gSM9Jeap
-xWDS0NedF04JaJ93prWeCmz1iG6Rz1ioTQOShLUI4Dbek0EMrGMxQhJoZZelCD9F
-zwFhLOSKgfBQyxRcvJdRVgYWs96/FTb+nGqJhX0TEtzmWYEH1kbq1gG/wOCoszuO
-s6WKqioynldBJQW0TKqsjTThxlPBNxt8xhz0DhFc1eRiqCyOfgQyXdlRb20kpQtz
-QccbXEGtDxuhPaMjffTNBVSkd1n1bxV/QftUN0VvKaQK0r8vgibVzvS0zKqct9pz
-Z/zbnXM+A22IVHxejFt5ajdOQ/JL85i4n/6ncyUCnyfiLKfggFua0a7WZwGYaTQv
-YWH2ODq83XMg02h5ufAn6T4PudEfMmunpVOh2tWXrUVU5r1Q4EHYQ0NTSjUHAKiO
-bOSPH3IgaLuuRhT9uGZ/37lzJhM4WMx6KbB++bg1tH6M0vwDdvujZPk8tGzH83uj
-tOYjZXD2dOUAinGkfTXFCBbPkilm3SPQXtgDCVWXkiVxATb3H3yy1q7wVo+vj6n4
-ALUo+ag7hG36CQRKfL6pEr2mfIUOTyWMVXBXTrY0HlJfEoFORWs=
-=LgXy
+iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl2hELIACgkQQDiHkFv5
+ZKvo1xAAw03w8hea3cuap3Rlt8i08M8iSRMOP4/isuLUf80CCIZvUBnyBwKZ+hJo
+PvbdrIYK1hL1k9gcZzBqRgJ6X/I/HWIaPMLsFZSnqSb1TPm+lM36FXEz8c67s13k
+Cdd7SoCiIQSmZXiWpI4OYBYv6Du1x7FO3UPyoqWJ1039V2ny/XTCiQNA+Ou7UV14
+2A72PIOGzU/vMFp40q5lwbzobcn/XQelxV2ioXGxFWCtZuhphsBriGh3A2MUjeL5
+taVHiHKmoh98tC5OIIQFszCeB3Y5MSM7joYRkzeqwZJlmVNcFEplXfDJEDehA/+t
+B0YYA6OR6VnQZFmxQt/8f+QJJCFMXUDDT7N7tYV0ax2msiOF/vcrMFR1r67B+9sQ
+zuAagL5HpoMxUu6hRLVue0UN1Zh8jlk03A69tl9hT0YRNdeNFWwHMai4KoCNgNXV
+ZKR7vr0yIEm5hCt5FKVsHZceTM+EIOeIpnxr/TddkuKzTU5jLsTtMNFPFsevoQ6W
+b6zACLr0p9tiaytgtEKlzDcEUib95JvuM3azLW3kfUigwcMLfW1efH9iupvyh4W6
+oBr1ckU2j4+uPphOAUPw14Gru+IVsre32hQXPxlnRUpJW57o2IAMgN0c28Iz5zLA
+Cx2YYE5P2fas0/GpQLSKVd97oAhq0krjJSd7/y4TNHUfR5mOows=
+=iRPk
 -----END PGP SIGNATURE-----
