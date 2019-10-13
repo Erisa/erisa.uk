@@ -3,9 +3,9 @@ Hash: SHA256
 
 # All root domains owned (On a registry level) by Erisa (erisa.moe)
 # Domains that redirect to domains not in this list may not be in complete control.
-# Content outside of these domains cannot be guaranteed to be owned or managed by Erisa.
+# Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2019-10-12 00:36:49 +0100
+# Last updated: 2019-08-20 23:59:49 +0100
 
 # Private use.
 awau.uk
@@ -16,7 +16,7 @@ cord.gift
 # Private Seafile.
 erisa.cloud
 
-# GitLab.
+# Internal use.
 erisa.dev
 
 # Hosts created games and information about planned ones.
@@ -42,17 +42,17 @@ might-be-super.fun
 seriel.pw
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl2hEiEACgkQQDiHkFv5
-ZKsuEg/+I2BGOd4UonGbJ9hnYSXoFLPQUoUjj2n1V7a+M7Fy9N4DcABCT4TQgLis
-7DBj1DlKoPAh+ZmyZX+R/59lqzudx+Rdo1IsXBBOFHThYvnT9Fkd/ePMwy6LcVN+
-p8jtoN6Yozo4glPJ+VyQTHXU/5az6/Qn8fKahbL00cMTIlllqpYyvlxn5iyyzgr3
-71vaJTJ8q84d/TCup2VBhQWCsXYq5Db+3sRkEZOtRSZ1RQwyBgLTn0qYhZcc0bvk
-1BQ1yVe78fg47MmoFzUhBSjFQei0xEQq0L5fKt7Sys3VvQvozZLTrJWH388Rs22n
-QGfdODM12PQwcRVMe7nRsmA9HNQGCQ1vCFqwzJws2hO3TYw+JYJtI81wekLlRqho
-stXuyjswc68G9UlrG6c+mWtAVaFEldMctWLJPE+VR591jmU9PvqkFuhM21Q0pSuX
-Q8G4wpsPQDa0I9tMTx9kxc6QTMLNJjW3tqnh6xEPmpjNneFSni/xeY43mljS0xq6
-vPBMwQY/9ryT/U+3kgZckYBw1kVhPRNSp3BPbszCKEbUacMz2v6gz9tbHj68vISM
-+nZBVOBg3W8k+xnjesB+nRVRtiHdHMW1L2Ah77fFdNEiNHfnrWYHOixxMHar5G4L
-KUru9hNnvWfn5BYLWCD1w4wKQaxZUWObRKi+AxJUIsjd3Gk1Xbc=
-=vADk
+iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl2juKMACgkQQDiHkFv5
+ZKsZghAAocd7HOT0diSuqxaqhJ9g1iICGOaEq9r94g35AfcIFYTEN88vOIAY5dGb
+PBcMW7MXZqJM2w6u2RL+Nwkkvq7vJ5Jwjk4SJNPIB204Es8OIHw7NIpU35KwDuYW
+pJF/G3BW4NUTNi0wRbqD2v+7S6mMVo3HzpsPk7qC6/fVndO7HTwepp5YUpCiDREj
+rMOU5dSXVXbbVJ+CNr9Gn8d2Mq4/sTEL0mtouLvDklGEaOJoWS3BylL5vH3AG1E7
+NzvYdm+KULqUfW5mmifX7ln0WQ16/jnmi7o/yT0oOx0k/s+vA7DlUaO3CnwoGd2E
+s2zVtzBQaYqSWdDdj9XR/ekj5zCO2pSI56ofnx2KUjVhcFfQKNuEoBG5MyXFFT6w
+a6cz2/1UgN0vdqdluTmczA+ZFobiJ7C6eo4VeDU3pCANf6OdWRH5pK+GiLWFr2DB
+ueJybXn9f92iHKv3Mm+e9vcyOzZ5kpu57P0hf7AREm3givOyscwC2it06mpXUKUL
+M8PpbLJXFbH9DwACW1vFzkank08aZD9twHFIc/Z81L2CanuMtmBvnadT2VrKEqNH
+d284qiz1P/7OQz+9MA8Gvxs37D8JOQdL1qDfVzxpMbwTAuoN+4RN5mlssxJlOUTf
+5j/IBXnISqwK82zDsUGBkN7CBbQWzFiTT3+u5hRqA0Z/aADhUlw=
+=398+
 -----END PGP SIGNATURE-----
