@@ -5,7 +5,7 @@ Hash: SHA256
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2019-10-14 00:53:06 +0100
+# Last updated: 2019-11-01 00:03:17 +0000
 
 # Private use.
 awau.uk
@@ -31,6 +31,10 @@ erisa.link
 # You are here.
 erisa.moe 
 
+# Project Evenfal
+evenfall.site
+evenfall.website
+
 # Serves legacy content from prior to the existence of erisa.moe.
 fl0.co
 
@@ -40,19 +44,20 @@ might-be-super.fun
 
 # Unused, legacy.
 seriel.pw
+
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl2juO0ACgkQQDiHkFv5
-ZKvpxA//RU7vPIYqT2UoxhVdkd1W77htjpS0j93wno45G0gVQ60pHNXcuk4M8Z+P
-BIqPg2foNUBuJM7ecLfnNrwKVRkrtd+JHamRyQAWboH1c5f7oOvLglH2tBGKlR7K
-wuDVaZA7G71TV58W64Or1KQnqYKFnCsGnRflDMexcr7tXIWwJ+nMEI7lgA1uhBBk
-gdGpEhLaCjJKERuwIclvuXGXhMPZU201jfmeL+5I6cCU+kDd80/66W8GN6Q44Eai
-iWeTqJ557OMD1holyYXSXUL0ujhnIAy0sQbo2KqRA36iPrCLZDyluzmPSSW35onE
-4TUXJ2/ic4y/7ifEiA4Kl6SgvR6ExvT9hesBv7ase2qzgD4Akm852U5VpBwUUiV+
-pwDhFgMvUs3C8McEgtpdG2X55YpmCH5p9spvjoV2YIZgv0sF9e4MjaIb9FDwQgx0
-eZHPLvU3VJT7yOfeN7i0RxpT49PSGN8FyWBUwSrgEx6laP0pRCkS1VOt6vYJ3hDQ
-EE+S+eF/Mx2gWh9IAHu+uhOAx4/z7vMUVGoM0Ll+0qj0MEcSrzTMN+sP9FrI/KtN
-TjgiCTqwSusg3PPA7ESrHX/H63nBlEeYWJR2LW6sneL3RCrCPAuX1xfALHK+fM79
-8V+G8FjBpLkoCKZdYOwvbYXYBsXb0Uj2zSj/PGcZogxthEaGIl0=
-=ZKJ+
+iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl27dlMACgkQQDiHkFv5
+ZKtH9g//fH8STsw1LRGRbMg3K+fZOdkdMFQsiLB1PveDAk2Tf5MyNUd4WyMadvNq
+SHPYo0cINcuw9Dn6PKWEpZ/ruNItLZTdcA9WsV0VoDH/p25gW4USYmH+T6jdmGvx
+As45JWZ2Qb3eNKJZpiYX5rbtmpnQsR/FmgeV4W7n++14pFws80RadiTAs643EJek
+mWmK0sp0TIN19mT4qm4ZkwHqEEs3bs/ZmcLypf89oPwzBnnCu/dqg5A3BveWEFeD
+hJ7CwHGf6hlIZa35JhRSevCRu0oXzdGgRFImkk5EqKf5yGukDGCgKno24eMVCaEn
+JuWkSu0dXTFBSm7VRgNVFOVGczHS93Sf3QCuU7922UOxGw2JdvE9gKlFrfLPObBI
+yEJeEiPIqbTVD4Any5NZIguEzMMwngT75YM7DiMWXkXXpHioU3CIgeLjbP+n9Wc7
+ePumhl1G0+wC1U7f+7rR5Bw/ym4EP0EY/+mYsUCloSPo13H8O/eI833aqN35XeIS
+6hSVsTsDPJTq6N6HD/L+PJbFn70Iw2KMTsSej56Ekc7JKGDkRffu4Pbh+qfX7udu
+2lKZnrcLym3D+4WKu4FYWCmQYDlgBMCHa4owht7y+oC6pTM88dgZhxJX9VM2bhxN
+K3xWzY0X+wiIZTrd3mO/s1DHPv2qE60/1uraVDHw+/4liNUpklM=
+=kFIT
 -----END PGP SIGNATURE-----
