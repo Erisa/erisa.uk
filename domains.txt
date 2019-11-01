@@ -5,7 +5,7 @@ Hash: SHA256
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2019-11-01 00:03:17 +0000
+# Last updated: 2019-11-01 00:26:38 +0000
 
 # Private use.
 awau.uk
@@ -31,7 +31,7 @@ erisa.link
 # You are here.
 erisa.moe 
 
-# Project Evenfal
+# Project Evenfall
 evenfall.site
 evenfall.website
 
@@ -47,17 +47,17 @@ seriel.pw
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl27dlMACgkQQDiHkFv5
-ZKtH9g//fH8STsw1LRGRbMg3K+fZOdkdMFQsiLB1PveDAk2Tf5MyNUd4WyMadvNq
-SHPYo0cINcuw9Dn6PKWEpZ/ruNItLZTdcA9WsV0VoDH/p25gW4USYmH+T6jdmGvx
-As45JWZ2Qb3eNKJZpiYX5rbtmpnQsR/FmgeV4W7n++14pFws80RadiTAs643EJek
-mWmK0sp0TIN19mT4qm4ZkwHqEEs3bs/ZmcLypf89oPwzBnnCu/dqg5A3BveWEFeD
-hJ7CwHGf6hlIZa35JhRSevCRu0oXzdGgRFImkk5EqKf5yGukDGCgKno24eMVCaEn
-JuWkSu0dXTFBSm7VRgNVFOVGczHS93Sf3QCuU7922UOxGw2JdvE9gKlFrfLPObBI
-yEJeEiPIqbTVD4Any5NZIguEzMMwngT75YM7DiMWXkXXpHioU3CIgeLjbP+n9Wc7
-ePumhl1G0+wC1U7f+7rR5Bw/ym4EP0EY/+mYsUCloSPo13H8O/eI833aqN35XeIS
-6hSVsTsDPJTq6N6HD/L+PJbFn70Iw2KMTsSej56Ekc7JKGDkRffu4Pbh+qfX7udu
-2lKZnrcLym3D+4WKu4FYWCmQYDlgBMCHa4owht7y+oC6pTM88dgZhxJX9VM2bhxN
-K3xWzY0X+wiIZTrd3mO/s1DHPv2qE60/1uraVDHw+/4liNUpklM=
-=kFIT
+iQIzBAEBCAAdFiEEoybsLsO8rssnQruVQDiHkFv5ZKsFAl27fIAACgkQQDiHkFv5
+ZKtxFQ/+IRX24NH1SVnOS6YiWDW/pAkJ9rhx472ZjiY9V3W7+tfE6dX8FoKfiP+L
+oMbttOMqvi9AMuu8nYKEPlZHTf6lx6QQfGrm1pphSrquTSXqjQ46tCeL0rxgVloM
+TYHAuYv5jRCQXL/1NbI55ccErSaQLFhU297Bki6Oy5/BV02D1+6J3JZCc6slYwJ1
+GqkP8OM1iFezP/q/HbdyjDq4xpEC5AvjY7/BCCWjJxDilYtW6VPrBnR8trG4foRu
+XeNEOqWeu8GrzB/8sGpg9JIIjkeGKiH52PGa7eIiZ1pDM7pRUMvrJM7GQy2aDT1m
+Cwe1DAyOUtpR2s9oMS+AMQxxOTTDTl7uJIAGU2lY6S8rlDch8+LKcWjGqWwcnPCH
+PYtqPQu5fFq+wgSIwZzwdg6WVrSShSp2BUhBHrXI7N1FXGdF8tovtAPdrMQsSn9F
+bJWGYEk9yFmT2NAVx0tBxdTB5zJibyTHgwfn9ChxbvzbxZO3LXzU2QEBu91otw0t
+SVVTVLS2dYDmpeC7tNb5YGDvcxKZBsg1pwR412XGXT8Jf4joo20HJOrX4QfGcDy0
+W00IyGbomQzsiLAELX7qVMmu57Mb9AewT567i/ubHdoFm9+V8SdZ4QnSeGKxcC57
+KaZdIXGk06BeGQtmrkb+dtEd1svQ6qUHBJgxRwHH/BXBlutkoQU=
+=u5PH
 -----END PGP SIGNATURE-----
