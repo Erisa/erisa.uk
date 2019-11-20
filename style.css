@@ -1,14 +1,21 @@
-main {
-    text-align: center;
-}
-
 body {
-    background-color: #282727;
-    color: #C63B65;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px
 }
 
 a {
-    color: white;
+    color: #0077aa
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+.erisa {
+    color: #C63B65;
 }
 
 ul {
@@ -16,15 +23,16 @@ ul {
 }
 
 li::before {
-    content: "- "
+    content: "- ";
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     body {
-        background-color: white;
-        color: black;
+        background-color: #1e1e1e;
+        color: white;
     }
+    
     a {
-        color: blue;
+        color: #3391ff;
     }
 }
