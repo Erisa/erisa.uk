@@ -1,5 +1,9 @@
 # erisa.moe
-It's a website.. go to [the website](https://erisa.moe) or view the source on this repo. That's it. Thanks.
+It's a website. You should go to [the website](https://erisa.moe) or view the source on this repo.  
+That's it. Thanks.
 
-## Credits??
+## Credits
+ - Me
  - https://www.albionresearch.com/misc/obfuscator.php
+ - You
+ 
