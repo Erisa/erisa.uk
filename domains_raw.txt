@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
 # All root domains owned (On a registry level) by Erisa (erisa.moe)
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
@@ -47,14 +44,3 @@ might-be-super.fun
 
 # Unused, legacy.
 seriel.pw
------BEGIN PGP SIGNATURE-----
-
-iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl4BSyYACgkQjbUnjHHv
-RXkibwf+JhUYUZGD7jUkrjrpBfsg0Pzn3nJEwzQCEHUGQWCe/9+Cq2Binu5s7ju7
-1WKHSVqQyxQXdSaSwOEItBR8+vhujPG0HGilxlIiq3f6fs0TwJhx7tEadcwNabvK
-4mMODJfD9Fmkvbd33krFwdXwfxK/uDKGCzRjesB+mKZtQPvpATuK4kKYVlbmouzZ
-GnmV/ktpKiJevSjqnnOUvv/4Z3vSaqNQ574szd3ZFy3I8tQeaGyqYJ3P9duiWYGa
-aIITG2+iJvX+lFG+WvO8Y6CK04Zo476NQZ268K3ULBfEVjNj+DssGYZrvmuf4DqJ
-MXynrZ2BjyZA5hmaSNyWIvEWulC8aw==
-=zAjH
------END PGP SIGNATURE-----
