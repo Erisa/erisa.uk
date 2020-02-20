@@ -2,7 +2,7 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2019-12-23 23:17:21 +0000
+# Last updated: 2020-02-20 17:23:34 +0000
 
 # Private use.
 awau.uk
@@ -18,9 +18,6 @@ erisa.dev
 
 # Hosts created games and information about planned ones.
 erisa.games
-
-# Root unused, "living-the" subdomain redirects to cdn.erisa.moe.
-erisa.life
 
 # Link Shortener
 erisa.link
