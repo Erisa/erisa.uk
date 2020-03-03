@@ -5,7 +5,7 @@ Hash: SHA256
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2020-02-20 17:23:34 +0000
+# Last updated: 2020-03-03 22:07:58 +0000
 
 # Private use.
 awau.uk
@@ -41,17 +41,14 @@ lewd.tech
 # Donated domain for https://whats-th.is, only controlled at a registry and DNS level. 
 # Content served from this domain is not controlled or endorsed by Erisa.
 might-be-super.fun
-
-# Unused, legacy.
-seriel.pw
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl5OwNYACgkQjbUnjHHv
-RXnSwAf6AxtVXmO4bODm8LUn8fAgTDSXj/ITAVXncPICyLWWs6hriGI+71v5s8qr
-H7Uxotio+hBqFRLRQNxthGYVT+rVXo1GyzkAm+Pkba76Ilnbd/SoCQgNXpTXBOOi
-hrQMrMx7Jw+H825vBkLg5bbVx9bmdSXyY38X+fr3tYufp+w03VeiV35xi4UMT+rH
-w44RjOMCFe2ldHGFMAk4IFU2Yh7NH6rXrc7OzTFy367RUjfMyitqUWDeUgLMX28L
-Lv5QHGoYiLPC2LVjuBuYiLYfCUlnAdfUqmCBVTqBE+IelSCtB0XcbXWM0qUCUIj9
-X4SO6vQzIpjA0o3hviWLxODuKAcfwg==
-=tWVd
+iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl5e1asACgkQjbUnjHHv
+RXlymwf/TSxz1npsE7X63937Cs3lfdB5nflt4mLKxc6W0GVsgGwgparKNMeyKka3
+4KsSwpXyC3NpRav7g8rf0jYOtJj2OFKnXkgRdkQzVcf+BDDNLZ/Ub37RTaKtZfBw
+q+Ptkday19xA2MBGe8+LElA3eLQffu27pyHUMyaQY6UZY0zNbN02fbYNub0WyxnF
+uISDmw2j6J6ZbW4alSJyw0dv/HNycn/dwEDqogcYVE4MBJFTIx0DKcbpwzQPlunY
+k/YKU++Z655Zmy8I8cpath3+rsUSZrMnqN8LpL4V3TwljCHQGh/o2xcFW/fJxqXp
+2UvW/NdRKFuebBPGOdAuhyRzKTMNWw==
+=hKAr
 -----END PGP SIGNATURE-----

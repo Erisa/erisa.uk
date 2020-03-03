@@ -25,6 +25,7 @@ I'm not the best at web development, if anything looks unusual then feel free to
     <main>
         <h1 class="erisa">Erisa's domain list</h1>
         <p>This list is designed to be machine readable and is PGP signed with my public key.<br>You can find the signed text file <a href="domains.txt">here</a> or the raw list <a href="domains_raw.txt">here</a>.</p>
+        <!-- GoldSolitude is cute -->
         <p id="domains">Loading.. If it doesn't load or you have JavaScript disabled, <a href="domains.txt">click here.</a>.<br>Sorry for the trouble!</p>
             <script>
                 fetch('./domains_raw.txt')
@@ -35,8 +36,7 @@ I'm not the best at web development, if anything looks unusual then feel free to
                         document.getElementById('domains').innerText = domains
                     });
             </script>
-                    <hr><a href="./index.html">Home</a> | <a href="privacy.html">Privacy</a> | Domain list | <a href="erisa.asc">GPG key</a> | <a href="LICENSE">License</a></p>
-
+            <hr><a href="./index.html">Home</a> | <a href="privacy.html">Privacy</a> | Domain list | <a href="erisa.asc">GPG key</a> | <a href="LICENSE">License</a></p>
     </main>
 </body>
 
