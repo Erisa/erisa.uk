@@ -16,7 +16,7 @@ cord.gift
 # Private Seafile.
 erisa.cloud
 
-# Internal use.
+# Personal blog!
 erisa.dev
 
 # Hosts created games and information about planned ones.
@@ -43,12 +43,12 @@ lewd.tech
 might-be-super.fun
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl5e1asACgkQjbUnjHHv
-RXlymwf/TSxz1npsE7X63937Cs3lfdB5nflt4mLKxc6W0GVsgGwgparKNMeyKka3
-4KsSwpXyC3NpRav7g8rf0jYOtJj2OFKnXkgRdkQzVcf+BDDNLZ/Ub37RTaKtZfBw
-q+Ptkday19xA2MBGe8+LElA3eLQffu27pyHUMyaQY6UZY0zNbN02fbYNub0WyxnF
-uISDmw2j6J6ZbW4alSJyw0dv/HNycn/dwEDqogcYVE4MBJFTIx0DKcbpwzQPlunY
-k/YKU++Z655Zmy8I8cpath3+rsUSZrMnqN8LpL4V3TwljCHQGh/o2xcFW/fJxqXp
-2UvW/NdRKFuebBPGOdAuhyRzKTMNWw==
-=hKAr
+iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl5sMRsACgkQjbUnjHHv
+RXn2/QgAnLTRDq7PkWnyYJ3hP0783vriObHC943lJA9xYCN9xinK0eNLhZQndC8k
+a79adNeFZsrXldPyKPwLmGGUNgtLQYy6Ch3WJkrSqouBqINxec60gUitXowGHOiX
+eBW/6GfT8QeTvwPe3537p98/AXLarIoDdchTw4TxBGp5tr9FTYUAsDRGdSiQn2uS
+oiP/UNFb+hnXRrthwRoDTsJq0rhAJi7IkKt1C84cTZYm+Td6khXjV0ZDPXzt0GNy
+VBDbRFC6y8fadKqgZJvc2BfzQO348I53O5QiYsMM3BXdT+PD2pgh5gklDuJ6sG5l
+VQfuKthj8gJGkTbHLrjIIUa98A0Ybg==
+=MsLT
 -----END PGP SIGNATURE-----
