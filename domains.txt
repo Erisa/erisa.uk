@@ -5,7 +5,7 @@ Hash: SHA256
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2020-03-03 22:07:58 +0000
+# Last updated: 2020-03-14 01:25:16 +0000
 
 # Private use.
 awau.uk
@@ -32,9 +32,6 @@ erisa.moe
 evenfall.site
 evenfall.website
 
-# Serves legacy content from prior to the existence of erisa.moe.
-fl0.co
-
 # Unused.
 lewd.tech
 
@@ -43,12 +40,12 @@ lewd.tech
 might-be-super.fun
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl5sMRsACgkQjbUnjHHv
-RXn2/QgAnLTRDq7PkWnyYJ3hP0783vriObHC943lJA9xYCN9xinK0eNLhZQndC8k
-a79adNeFZsrXldPyKPwLmGGUNgtLQYy6Ch3WJkrSqouBqINxec60gUitXowGHOiX
-eBW/6GfT8QeTvwPe3537p98/AXLarIoDdchTw4TxBGp5tr9FTYUAsDRGdSiQn2uS
-oiP/UNFb+hnXRrthwRoDTsJq0rhAJi7IkKt1C84cTZYm+Td6khXjV0ZDPXzt0GNy
-VBDbRFC6y8fadKqgZJvc2BfzQO348I53O5QiYsMM3BXdT+PD2pgh5gklDuJ6sG5l
-VQfuKthj8gJGkTbHLrjIIUa98A0Ybg==
-=MsLT
+iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl5sMo0ACgkQjbUnjHHv
+RXlpDggAiZzpRal5ppP0ccVDvj+vqGr8W/hDjlfihrZW836ejDazYbczIgdMjlwN
+uUcXBWEQI9/R9GIYWoANN37OlIh+/xBg8VMVTv7QIxv1TTVHxkUzcz4DOQKGm8zT
+KPEKJLiAui21AiJo94ad5OZMYwo7nAQSXDcsBItJLt6vdjQVokSw0DzniM+I5/4k
+vWyVJMQexTKCZ5pHh6CARHM/BZadMeo5q5/2dxnUNXR+EGg1UE7rvF5NXLTHgA6d
+KVDFhDHKdE4n7yPOE7DXIFiWCJu4BDOqFl1LCaJeUnvTHlXjk44Sw5IrRGZhTeZa
+xBp2KT0kCOMV8MCJ4IpAAlNck+QCAg==
+=bUmG
 -----END PGP SIGNATURE-----

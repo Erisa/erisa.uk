@@ -2,7 +2,7 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2020-03-03 22:07:58 +0000
+# Last updated: 2020-03-14 01:25:16 +0000
 
 # Private use.
 awau.uk
@@ -28,9 +28,6 @@ erisa.moe
 # Project Evenfall
 evenfall.site
 evenfall.website
-
-# Serves legacy content from prior to the existence of erisa.moe.
-fl0.co
 
 # Unused.
 lewd.tech
