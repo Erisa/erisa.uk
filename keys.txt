@@ -1,0 +1,17 @@
+### Erisa  keys - Last updated 2020-04-13
+## https://erisa.moe/keys
+
+# desktop/laptop, idk why they share a key
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
+# phone! juicessh, because it doesn't support ed25519 :(
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhtd2JOI5DBXF4g1tuiFIt7OS0zlosdiHvZB+GwpfSe8BK7ehJapzKpIzTWQ2pH5BtlzgtDeKKCFgbL1CXWDcMDgYn+SwyIb0PqSg906X5N26TehaLvpXsmM1eqC8a79D0iPnErq0yRJWfdbZABts6XBXKnBsv2170rN8fI8yHNK0msQG1PlreF3mF270lR1V0cevYH1Q0rtvqJ3dsUIal3YlSUNYpZAwI6tqOfsG+qSxG33jIE4g6GphtMk/vX5sFz3aGwi40RQOkirZfeEltJVXN9WiLPzemwSIYWNUExsVSLCFJVpJ8apZguBVYa1RETsEkY8kNmFSjtC3oQS61 erisa@JuiceSSH
+## Ones below aren't always needed.       
+## Refer to erisa.dev/devices for details
+
+# crystal, on snug. mostly for rsync.
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4Wm6rrh6HvljltdJZHtB1teah1qTxBUzpICkCurVzPFvouT9rHMIHOAcbnTMLeOis/eboqtdhlcmJ/3QybpQ1GIQ8ctFEQ4PlWZB83mhOMkdTLNWj09PGR0kc4H1uWU1UGHmL02lBPAh+QxOaixP1H3+e/RxiiGe6DL0zDhp7gHQkgpPM/HY4haKuKJ/GBUsklvHsnssY4fi6GICqR3RYTxyDgA7z7HC4nqLNLTSAPYBh48DwcO7ilsyVQeMVjkTevq295BiqqvZnvcO+PEeMzpvo3iZqJzRIA+xFgIhLHLJPHcFBki+AXIleIFZ2L5ckxReu8DyS4brl/EEdv2hV erisa@crystal
+# yeast
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCTun5ihwreEptvJNV0HUjVSNX7QWW1tw2n86vLBnAA2vxA7/NKUFBFs+QLHCnJDP47ujRkSeFnIPOlWQeJ8sJoLUhZJuEHt7Q/MoLa2L1BLa/ei0EmaP5RjJz08hzFLoa9AzP+IaNEr9ri/sYwpjw2tfYwIC4oh0jyy3mLRtVXKi/GTx7HyNcFFDy4JycRpGaE5LsQVuq+GwjrA0H/tpR+8skuTQ70dpNs9FXC9iCCKUVgqXAotTLXiMbv0qihL3pj+XpDWhtYV2Ej7/qDFCYCMVlNRyZ5yzUqJuj2nYZsBdYJXAVc+/nYPTMWuFeGGYm5mRzhBtYzDRAOlUc2MzoJ erisa@yeast
+# this spot reserved for tiger
+
+### End of Erisa keys
