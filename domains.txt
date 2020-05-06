@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
 # All root domains owned (On a registry level) by Erisa (erisa.moe)
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
@@ -38,14 +35,3 @@ lewd.tech
 # Donated domain for https://whats-th.is, only controlled at a registry and DNS level. 
 # Content served from this domain is not controlled or endorsed by Erisa.
 might-be-super.fun
------BEGIN PGP SIGNATURE-----
-
-iQEzBAEBCAAdFiEEVNSgaGWDK5WcqQayjbUnjHHvRXkFAl5sMo0ACgkQjbUnjHHv
-RXlpDggAiZzpRal5ppP0ccVDvj+vqGr8W/hDjlfihrZW836ejDazYbczIgdMjlwN
-uUcXBWEQI9/R9GIYWoANN37OlIh+/xBg8VMVTv7QIxv1TTVHxkUzcz4DOQKGm8zT
-KPEKJLiAui21AiJo94ad5OZMYwo7nAQSXDcsBItJLt6vdjQVokSw0DzniM+I5/4k
-vWyVJMQexTKCZ5pHh6CARHM/BZadMeo5q5/2dxnUNXR+EGg1UE7rvF5NXLTHgA6d
-KVDFhDHKdE4n7yPOE7DXIFiWCJu4BDOqFl1LCaJeUnvTHlXjk44Sw5IrRGZhTeZa
-xBp2KT0kCOMV8MCJ4IpAAlNck+QCAg==
-=bUmG
------END PGP SIGNATURE-----
