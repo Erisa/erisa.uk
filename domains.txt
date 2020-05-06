@@ -2,7 +2,7 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2020-03-14 01:25:16 +0000
+# Last updated: 2020-05-06 22:54:38 +0100
 
 # Private use.
 awau.uk
@@ -28,6 +28,14 @@ erisa.moe
 # Project Evenfall
 evenfall.site
 evenfall.website
+
+# Looking for gf hmu
+erisa.date
+i-wanna.date
+on-a.date
+
+# Why does this exist?
+erisa-gay.lol
 
 # Unused.
 lewd.tech
