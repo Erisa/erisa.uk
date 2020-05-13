@@ -1,16 +1,16 @@
-### Erisa  keys - Last updated 2020-05-12
+### Erisa  keys - Last updated 2020-05-13
 ## https://erisa.moe/keys
 
-# desktop/laptop, idk why they share a key
+# desktop computer
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
-# phone! juicessh, because it doesn't support ed25519 :(
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhtd2JOI5DBXF4g1tuiFIt7OS0zlosdiHvZB+GwpfSe8BK7ehJapzKpIzTWQ2pH5BtlzgtDeKKCFgbL1CXWDcMDgYn+SwyIb0PqSg906X5N26TehaLvpXsmM1eqC8a79D0iPnErq0yRJWfdbZABts6XBXKnBsv2170rN8fI8yHNK0msQG1PlreF3mF270lR1V0cevYH1Q0rtvqJ3dsUIal3YlSUNYpZAwI6tqOfsG+qSxG33jIE4g6GphtMk/vX5sFz3aGwi40RQOkirZfeEltJVXN9WiLPzemwSIYWNUExsVSLCFJVpJ8apZguBVYa1RETsEkY8kNmFSjtC3oQS61 erisa@JuiceSSH
+# phone! juicessh, it finally supports ed25519!! :)
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrP3QLS7AwAtR0GQfCIWRY5rD3A3j31NbDkNHjlUxD/ erisa@JuiceSSH 
 
 ## Ones below aren't always needed.       
 ## Refer to erisa.dev/devices for details
 # crystal, on snug. mostly for rsync.
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4Wm6rrh6HvljltdJZHtB1teah1qTxBUzpICkCurVzPFvouT9rHMIHOAcbnTMLeOis/eboqtdhlcmJ/3QybpQ1GIQ8ctFEQ4PlWZB83mhOMkdTLNWj09PGR0kc4H1uWU1UGHmL02lBPAh+QxOaixP1H3+e/RxiiGe6DL0zDhp7gHQkgpPM/HY4haKuKJ/GBUsklvHsnssY4fi6GICqR3RYTxyDgA7z7HC4nqLNLTSAPYBh48DwcO7ilsyVQeMVjkTevq295BiqqvZnvcO+PEeMzpvo3iZqJzRIA+xFgIhLHLJPHcFBki+AXIleIFZ2L5ckxReu8DyS4brl/EEdv2hV erisa@crystal
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEa/IPcZkszO6vvPLPSKXsGE/KJPXDX+FuJyZNPnpJNM erisa@crystal
 # tiger, dedibox atom hell
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiahuylHt3EZqq3x59yjVhne0pyYCoZ5O83JuyD3yVlOJJGPtCP+qPP14eFR0rJBTslqYoWohnZeCEm8v/r1T3VzjSn5OARh8A6TF2g0P9CBaMydjG4QJrC84gUHz1/Cz/WvNR4MlZNYLCf1lqech7z9b1khz7cZxxMyuHLXiqmK3Q3qbP0ZJEkI8fSPbt7pib/fyp4m0TdhhTYAH7ShL3actVVcygAcaMha03qv3KiWaUiYGaAVqLlJJ1DKTfk+8iwCb27ojOPVLjomik1glRhcDWwvOYbSrd+cNDDFkfselP1UNBY2pQosdmapq+n5C7UhWag47eskpMcjyYfXlb erisa@tiger
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJIeeBydDmELDoeXGYtMujpC6I4zWDkor1eD40z54Glc erisa@tiger
 
 ### End of Erisa keys
