@@ -1,16 +1,23 @@
-### Erisa  keys - Last updated 2020-05-13
+### Erisa  keys - Last updated 2020-06-07
 ## https://erisa.moe/keys
 
-# desktop computer
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
-# phone! juicessh, it finally supports ed25519!! :)
+# Krypton - https://krypt.co
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCVgY1aLCOa3mCHQYztnduat/Xn5rIhF96l8xsveDIwi/ljFfF6sTdRcUCpy1kz4CkQcRKWMRUDIreENGsdB4UjK6TDyQUVAOBwZ1cgaOzeNliQoqyssfO6o/XnnTm50nopazdCO+gmEmmZ9MEOVpBu9wftu8vK1uC44KBHKX7Sgg09nTMl434Xqb7N0Ehn5Q+B7eT2g366/tSx+GfP3r36/Qw6qSP+kYdBPo5n3cUxx2iQCuaFhGfK51BmDH31iLAs7RBTbdIokDsRJ9V8eCvriUWZql1eXrgJVS72IhHOCp8hZzgNgwGt2AkFGk9CE4ILDzxFuoF49LUtsr/aNGlXfmDDN3JRh+EwUVFX5GF/l0ZpjwIugrTYZr2+QyrjvZiks3AZPV2TT8eYYzzlU0eIzYvlHDSkT26LiLgt/tsnAsBUUFcmmQcbYLpK9ERWZpj4EGqzye7KC4ORMg+SjD2HH0haP5XFNbOv0ZwGoMVpXTB7UnBVvy8MG2LscInIVI0= Xiaomi Mi A3
+
+# phone - juicessh
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrP3QLS7AwAtR0GQfCIWRY5rD3A3j31NbDkNHjlUxD/ erisa@JuiceSSH 
 
-## Ones below aren't always needed.       
-## Refer to erisa.dev/devices for details
+## Ones below are optional and not enabled by default.
+## Refer to erisa.dev/devices for device details
+
 # crystal, on snug. mostly for rsync.
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEa/IPcZkszO6vvPLPSKXsGE/KJPXDX+FuJyZNPnpJNM erisa@crystal
+#ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEa/IPcZkszO6vvPLPSKXsGE/KJPXDX+FuJyZNPnpJNM erisa@crystal
+
 # tiger, dedibox atom hell
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJIeeBydDmELDoeXGYtMujpC6I4zWDkor1eD40z54Glc erisa@tiger
+#ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJIeeBydDmELDoeXGYtMujpC6I4zWDkor1eD40z54Glc erisa@tiger
+
+# Computers, backup key to avoid lockouts (Secured, hopefully rarely used, don't add if ur a security nut)
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
 
 ### End of Erisa keys
