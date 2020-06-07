@@ -7,7 +7,7 @@ import { getAssetFromKV, mapRequestToAsset } from '@cloudflare/kv-asset-handler'
  * 2. we will return an error message on exception in your Response rather
  *    than the default 404.html page.
  */
-const DEBUG = true
+const DEBUG = false
 const special_cases = ["/keys", "/LICENSE"]
 addEventListener('fetch', event => {
   try {
