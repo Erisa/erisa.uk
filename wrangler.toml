@@ -1,0 +1,10 @@
+name = "erisa-moe"
+type = "webpack"
+account_id = "ece1d09b06af2ced51407c97505ea0cc"
+#workers_dev = true
+route = "https://erisa.moe/*"
+zone_id = "66070ef41f4801aa42e966ad127885ce"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
