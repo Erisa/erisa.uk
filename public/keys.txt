@@ -1,12 +1,20 @@
-### Erisa  keys - Last updated 2020-06-07
+### Erisa SSH keys - Last updated 2020-07-03
 ## https://erisa.moe/keys
 
 # Krypton - https://krypt.co
+# Backed by Android hardware keystore, very secure. 
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzesFPXFSx3ddZq6jfThqe+g8C6Li3L0ZtBUWOitnTfHtrsZfeA98nt0QoSCcIyZSn5HBfgGT/ab4XrAGUOuXRhRebo4pdAzF04Yhr55z7Z2AAHIMCjtJKEasRyYxaSSJPJwLp3dyx2h+pSiJgi5fvUIH9wm4BmtH+yzAI7ftujzicr/vrRKdZJyfAA5aqEtFHb2nkJ8h06cogOhP7M/y/F/DHX06FgSMq+yPyhmbrFrlWhTruJdW2u8IcW2rhH/InMiOYNBEK+ErWySVdH6LnZn7xzHA4/OYQ8h4hUURkvoF+NSbJbsg49GoqQOHq/aTi1Yy2mVLn5jLlnH3hN7OOl9aYUPThu1qOmDhzkObybLe2opBZKHfkfLlDwemquIjTVXj0FMvlbSEIDvXc4BSOyYSdw+5+5w5ylSVH4gFIIokDr6oVOnVnNrYShW8CgbSrtrIA4PrnZop86+AQFEaN392OnsEBIO0AetXq9/sFdV7SV8z75oUKDGbz0Ju9o3U= MiA3
 
-# phone - juicessh
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrP3QLS7AwAtR0GQfCIWRY5rD3A3j31NbDkNHjlUxD/ erisa@JuiceSSH 
+# FIDO/U2F Security key. Even more secure than Krypton.
+# ! Requires OpenSSH 8.2 or higher! - Please don't use as your only activated key if you dont have 8.2.
+sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBO5Uhm6IskKKlpu+waAlkZ79wE8hFBPpoPkEHb2V6sgCk+6UDbPCyU/siW6D4eHGMDzM4VVhvSkqrEpYa8samsQAAAAEc3NoOg== erisa@Tuturu 
+# ^ Should be ignored if you don't have a supported OpenSSH version. 
+
+# Android phone - JuiceSSH
+# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrP3QLS7AwAtR0GQfCIWRY5rD3A3j31NbDkNHjlUxD/ erisa@JuiceSSH 
+# ^ Disabled by default in favour of Krypton in Termux.
+# ^ Enabling may aid convenience at risk of security. 
 
 ## Ones below are optional and not enabled by default.
 ## Refer to erisa.dev/devices for device details
@@ -20,4 +28,4 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrP3QLS7AwAtR0GQfCIWRY5rD3A3j31NbDkNHjlUxD/
 # Computers, backup key to avoid lockouts (Secured, hopefully rarely used, don't add if ur a security nut)
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
 
-### End of Erisa keys
+### End of Erisa SSH keys
