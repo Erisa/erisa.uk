@@ -4,7 +4,7 @@
 # Krypton - https://krypt.co
 # Backed by Android hardware keystore, very secure. 
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzesFPXFSx3ddZq6jfThqe+g8C6Li3L0ZtBUWOitnTfHtrsZfeA98nt0QoSCcIyZSn5HBfgGT/ab4XrAGUOuXRhRebo4pdAzF04Yhr55z7Z2AAHIMCjtJKEasRyYxaSSJPJwLp3dyx2h+pSiJgi5fvUIH9wm4BmtH+yzAI7ftujzicr/vrRKdZJyfAA5aqEtFHb2nkJ8h06cogOhP7M/y/F/DHX06FgSMq+yPyhmbrFrlWhTruJdW2u8IcW2rhH/InMiOYNBEK+ErWySVdH6LnZn7xzHA4/OYQ8h4hUURkvoF+NSbJbsg49GoqQOHq/aTi1Yy2mVLn5jLlnH3hN7OOl9aYUPThu1qOmDhzkObybLe2opBZKHfkfLlDwemquIjTVXj0FMvlbSEIDvXc4BSOyYSdw+5+5w5ylSVH4gFIIokDr6oVOnVnNrYShW8CgbSrtrIA4PrnZop86+AQFEaN392OnsEBIO0AetXq9/sFdV7SV8z75oUKDGbz0Ju9o3U= MiA3
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE/hOx+ncgmqsUySzMgn7DaZMq9GW/CcyquPWaMxmS9C MiA3
 
 # FIDO/U2F Security key. Even more secure than Krypton.
 # ! Requires OpenSSH 8.2 or higher! - Please don't use as your only activated key if you dont have 8.2.
