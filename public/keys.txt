@@ -1,4 +1,4 @@
-### Erisa SSH keys - Last updated 2020-07-03
+### Erisa SSH keys - Last updated 2020-08-04
 ## https://erisa.moe/keys
 
 # Krypton - https://krypt.co
