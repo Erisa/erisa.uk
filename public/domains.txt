@@ -2,7 +2,7 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2020-07-21 03:07:20.025898549 +0100
+# Last updated:  2020-08-11 04:51:21.916230349 +0100
 
 # Private use.
 awau.uk
@@ -29,12 +29,10 @@ erisa.moe
 evenfall.site
 evenfall.website
 
-# Looking for gf hmu
+# Unused
 erisa.date
 i-wanna.date
 on-a.date
-
-# Unused
 hmpf.date
 
 # Why does this exist?
