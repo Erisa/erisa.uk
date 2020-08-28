@@ -28,11 +28,6 @@ async function handleEvent(event) {
   const url = new URL(event.request.url)
   let options = {}
 
-  /**
-   * You can add custom logic to how we fetch your assets
-   * by configuring the function `mapRequestToAsset`
-   */
-  // 
   options.mapRequestToAsset = handleRequest();
 
   try {
@@ -59,14 +54,7 @@ async function handleEvent(event) {
     return new Response(e.message || e.toString(), { status: 500 })
   }
 }
-
-/**
- * Here's one example of how to modify a request to
- * remove a specific prefix, in this case `/docs` from
- * the url. This can be useful if you are deploying to a
- * route on a zone, or if you only want your static content
- * to exist at a specific path.
- */
+-
 function handleRequest() {
   return request => {
     let url = new URL(request.url)
