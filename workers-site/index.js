@@ -54,7 +54,7 @@ async function handleEvent(event) {
     return new Response(e.message || e.toString(), { status: 500 })
   }
 }
--
+
 function handleRequest() {
   return request => {
     let url = new URL(request.url)
