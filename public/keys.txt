@@ -4,6 +4,7 @@
 # Krypton - https://krypt.co
 # Backed by Android hardware keystore, very secure.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAUD9PZ3SjKcyHvCA2g9WfBVGsLy7Ix/e8q0Rqc3uo5h GalaxyA40
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICxhrV2kVuRn8odf8WcwA2JnWq13bhMgppuWR84LKbJ8 Pixel3
 
 # FIDO/U2F Security key. Even more secure than Krypton.
 # ! Requires OpenSSH 8.2 or higher! - Please don't use as your only activated key if you dont have 8.2.
