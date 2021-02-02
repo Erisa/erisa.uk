@@ -12,6 +12,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Publish
-        uses: cloudflare/wrangler-action@1.1.0
-        with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
+      - shell: bash
+        env:
+          BUNNY_STORAGE_KEY: ${{ secrets.BUNNY_STORAGE_KEY }}
+          BUNNY_STORAGE_ZONE: ${{ secrets.BUNNY_STORAGE_ZONE }}
+      - run: |
+         # TODO: Use personal fork
+         sudo npm install -g bnycdn
+         bnycdn key set default "$BUNNY_STORAGE_KEY" -t storages
+         bnycdn cp -R ./public ./$BUNNY_STORAGE_ZONE
+
+
