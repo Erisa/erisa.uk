@@ -2,7 +2,7 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2021-01-16 02:06:02.294609105 +0000
+# Last updated: 2021-02-14 14:29:32.5425993 +0000
 
 # Private use.
 awau.uk
@@ -25,6 +25,7 @@ erisa.uk
 
 # Project Evenfall
 evenfall.site
+evenfall.uk
 
 # Unused
 erisa.date
