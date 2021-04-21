@@ -6,7 +6,6 @@ That's it. Thanks.
 - [Erisa/erisa.games](https://github.com/Erisa/erisa.games)
 - [Erisa/awau.uk](https://github.com/Erisa/awau.uk)
 - [Project-Evenfall/evenfall.site](https://github.com/Project-Evenfall/evenfall.site)
-- [Erisa/nginx-configs](Erisa/nginx-configs)
 
 ## Credits
  - Me
