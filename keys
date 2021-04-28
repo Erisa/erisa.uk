@@ -1,4 +1,4 @@
-### Erisa SSH keys - Last updated 2021-03-30
+### Erisa SSH keys - Last updated 2021-04-28
 ## https://erisa.moe/keys
 
 # Krypton - https://krypt.co
@@ -11,12 +11,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFN0J5f0HK+j6HgYOdFiO5CwdvMcFfeU+GyX57FrDjrk
 sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBO5Uhm6IskKKlpu+waAlkZ79wE8hFBPpoPkEHb2V6sgCk+6UDbPCyU/siW6D4eHGMDzM4VVhvSkqrEpYa8samsQAAAAEc3NoOg== erisa@Tuturu 
 # ^ Should be ignored if you don't have a supported OpenSSH version. 
 
-# Android phone - JuiceSSH
-# ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDrP3QLS7AwAtR0GQfCIWRY5rD3A3j31NbDkNHjlUxD/ erisa@JuiceSSH 
-# ^ Disabled by default in favour of Krypton in Termux.
-# ^ Enabling may aid convenience at risk of security. 
-
-# Computers, backup key to avoid lockouts (Secured, hopefully rarely used, don't add if ur a security nut)
+# Backup key to avoid lockouts (Secured with password, hopefully rarely used, don't add if ur a security nut)
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
 
 ### End of Erisa SSH keys
