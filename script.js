@@ -5,4 +5,4 @@ document.write('You\'re always free to reach out to me at my email address: ' + 
 ';' + '&' + '#' + '1' + '0' + '9' + ';' + 'o' + 'e' + '<' + '/' + 'a' + '>');
 
 // I'm inside a script anyway, might as well make the most of it.
-console.log("Hey there! You can view and contribute to the source of this website here: https://github.com/Erisa/erisa.moe\nWeb development is not something I usually do, so I appreciate any help.");
+console.log("Hey there! You can view and contribute to the source of this website here: https://github.com/Erisa/erisa.uk\nWeb development is not something I usually do, so I appreciate any help.");

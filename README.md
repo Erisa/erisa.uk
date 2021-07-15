@@ -1,5 +1,5 @@
-# erisa.moe
-It's a website. You should go to [the website](https://erisa.moe) or view the source on this repo.  
+# erisa.uk
+It's a website. You should go to [the website](https://erisa.uk) or view the source on this repo.  
 That's it. Thanks.
 
 ## Similar Repos
