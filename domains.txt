@@ -1,4 +1,4 @@
-# All root domains owned (On a registry level) by Erisa (erisa.moe)
+# All root domains owned (On a registry level) by Erisa A (erisa.uk)
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
@@ -27,7 +27,6 @@ erisa.eu.org
 erisa.wales
 erisa.cymru
 welshy.dev
-
 
 # Project Evenfall
 evenfall.site
