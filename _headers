@@ -1,0 +1,18 @@
+https://:project.pages.dev/*
+    X-Robots-Tag: noindex
+  
+https://:commit.:project.pages.dev/*
+    X-Robots-Tag: noindex
+
+/*
+    Permissions-Policy: interest-cohort=()
+    X-Content-Type-Options: nosniff
+    Content-Security-Policy: default-src 'self' https://cdn.erisa.moe https://cdn.erisa.uk; object-src 'none'
+
+https://:project.pages.dev/:path
+  Link: <https://erisa.uk/:path>; rel="canonical"
+  X-Robots-Tag: noindex
+
+https://:commit.:project.pages.dev/:path
+  Link: <https://erisa.uk/:path>; rel="canonical"
+  X-Robots-Tag: noindex
