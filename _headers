@@ -16,3 +16,9 @@ https://:project.pages.dev/:path
 https://:commit.:project.pages.dev/:path
   Link: <https://erisa.uk/:path>; rel="canonical"
   X-Robots-Tag: noindex
+
+/LICENSE 
+    Content-Type: text/plain
+
+/keys
+    Content-Type: text/plain
