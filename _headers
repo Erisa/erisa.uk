@@ -7,7 +7,7 @@ https://:commit.:project.pages.dev/*
 /*
     Permissions-Policy: interest-cohort=()
     X-Content-Type-Options: nosniff
-    Content-Security-Policy: default-src 'self' https://static.cloudflareinsights.com/beacon.min.js https://cdn.erisa.moe https://cdn.erisa.uk; object-src 'none'
+    Content-Security-Policy: default-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://cdn.erisa.moe https://cdn.erisa.uk; object-src 'none'
 
 https://:project.pages.dev/:path
   Link: <https://erisa.uk/:path>; rel="canonical"
