@@ -3,12 +3,12 @@
     X-Content-Type-Options: nosniff
     Content-Security-Policy: default-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com https://cloudflareinsights.com https://cdn.erisa.moe https://cdn.erisa.uk; object-src 'none'
 
-https://:project.pages.dev/:path
-  Link: <https://erisa.uk/:path>; rel="canonical"
+https://:project.pages.dev/*
+  Link: <https://erisa.uk/:splat>; rel="canonical"
   X-Robots-Tag: noindex
 
-https://:commit.:project.pages.dev/:path
-  Link: <https://erisa.uk/:path>; rel="canonical"
+https://:commit.:project.pages.dev/*
+  Link: <https://erisa.uk/:splat>; rel="canonical"
 
 /LICENSE 
     Content-Type: text/plain
