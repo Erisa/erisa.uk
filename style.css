@@ -72,6 +72,7 @@ li::before {
 
 /* raleway-500 - latin-ext_latin */
 @font-face {
+    font-display: swap;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
