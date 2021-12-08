@@ -1,9 +1,8 @@
-### Erisa SSH keys - Last updated 2021-10-02
+### Erisa SSH keys - Last updated 2021-12-08
 ## https://erisa.uk/keys
 
 # Krypton - https://krypt.co
 # Backed by Android hardware keystore, very secure.
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAUD9PZ3SjKcyHvCA2g9WfBVGsLy7Ix/e8q0Rqc3uo5h GalaxyA40
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFN0J5f0HK+j6HgYOdFiO5CwdvMcFfeU+GyX57FrDjrk Pixel3
 
 # FIDO/U2F Security key. Even more secure than Krypton.
