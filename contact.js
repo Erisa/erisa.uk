@@ -11,7 +11,7 @@ document.getElementById('submit').addEventListener('click', async (e) => {
       document.getElementById('error').innerText = 'Please enter your name and message!'
     }
   
-    const res = await fetch('/api/submit', {
+    const res = await fetch('https://erisa.uk/api/submit-contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
