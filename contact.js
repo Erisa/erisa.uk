@@ -27,8 +27,8 @@ document.getElementById('submit').addEventListener('click', async (e) => {
     // It was sent successfully :)
     if (res.status === 200) {
       // Reset fields
-      name.value = '';
-      message.value = '';
+      document.getElementById('name').value = '';
+      document.getElementById('name').value = '';
       hcaptcha.reset();
   
       document.getElementById('error').innerText = 'Sent!';
