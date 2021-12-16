@@ -9,30 +9,31 @@ document.getElementById('submit').addEventListener('click', async (e) => {
   
     if (name.trim() === '' || message.trim() === '' && captcha.trim() === '') {
       document.getElementById('error').innerText = 'Please enter your name and message!'
+      return;
+    }
+  
+    const res = await fetch('https://erisa.uk/api/submit-contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        message,
+        captcha,
+      }),
+    });
+  
+    // It was sent successfully :)
+    if (res.status === 200) {
+      // Reset fields
+      name.value = '';
+      message.value = '';
+      hcaptcha.reset();
+  
+      document.getElementById('error').innerText = 'Sent!';
     } else {
-      const res = await fetch('https://erisa.uk/api/submit-contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          name,
-          message,
-          captcha,
-        }),
-      });
-    
-      // It was sent successfully :)
-      if (res.status === 200) {
-        // Reset fields
-        name.value = '';
-        message.value = '';
-        hcaptcha.reset();
-    
-        document.getElementById('error').innerText = 'Sent!';
-      } else {
-        const response = await res.text();
-        document.getElementById('error').innerText = response;
-      }
+      const response = await res.text();
+      document.getElementById('error').innerText = response;
     }
   })
