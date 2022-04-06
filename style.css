@@ -1,10 +1,11 @@
+
 body {
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
-    font-size: 21px;
+    font-size: 18px;
     padding: 0 10px;
-    font-family: "Erifont",
+    font-family: "Raleway",
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
@@ -16,7 +17,7 @@ body {
 }
 
 #domains {
-    font-size: 18px;
+    font-size: 14px;
     background-color: #F1F1F1;
 }
 
@@ -73,15 +74,5 @@ li::before {
     font-style: normal;
     font-weight: 500;
     src: local(''),
-        url('/fonts/inter-v8-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
-}
-
-
-@font-face {
-    font-display: swap;
-    font-family: 'Erifont';
-    font-style: normal;
-    font-weight: 500;
-    src: local(''),
-        url('/fonts/Erifont-Regular_1.ttf') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('/fonts/raleway-v19-latin-ext_latin-500.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
