@@ -22,31 +22,37 @@
         </h1>
 
         <p>
-            <div class="contact-me">
-                <div>
+        <div class="contact-me">
+            <div>
                 <label for="name">Name or email:</label>
                 <input id="name" maxlength="1024">
                 <br><label for="name">If you don't include an email, I can't reply.</label>
-                </div>
-    
-                <div>
-                    <br>
-                    <label for="message">Message:<br></label>
-                    <textarea id="message" cols="50" rows="4" maxlength="4000" wrap="soft"></textarea>
-                </div>
-    
-                <div id="hcaptcha" class="h-captcha" data-sitekey="c22b5dbb-fb8b-4220-9d5e-d632cb6fe9e2" data-theme="dark"></div>
-    
-                <diV>
-                    <span id="error"></span>
-                </diV>
-    
-                <button type="submit" id="submit">Send message</button>
             </div>
+
+            <div>
+                <br>
+                <label for="message">Message:<br></label>
+                <textarea id="message" cols="50" rows="4" maxlength="4096" wrap="soft"></textarea>
+            </div>
+
+            <diV>
+                <span id="error"></span>
+            </diV>
+            <div id="hcaptcha" class="h-captcha" data-sitekey="c22b5dbb-fb8b-4220-9d5e-d632cb6fe9e2"
+                data-callback="onSubmit" data-size="invisible"></div>
+            <button class="button" onclick="validate(event)" type="submit" id="submit">Send message</button>
+            </p>
+        </div>
         </p>
     </main>
 
     <footer>
+        <hr>
+        <p class="hcaptcha-disclaimer">
+            This page is protected by hCaptcha and its
+            <a href="https://hcaptcha.com/privacy">Privacy Policy</a> and
+            <a href="https://hcaptcha.com/terms">Terms of Service</a> apply.
+        </p>
         <p>
             <hr>
             <a href="/">Home</a> <span class="smallbar">|</span>
