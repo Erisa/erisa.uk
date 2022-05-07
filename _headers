@@ -2,6 +2,8 @@
     Permissions-Policy: interest-cohort=()
     X-Content-Type-Options: nosniff
     Content-Security-Policy: default-src 'self' 'unsafe-inline' https://erisa.uk https://static.cloudflareinsights.com https://cloudflareinsights.com https://cdn.erisa.moe https://cdn.erisa.uk https://js.hcaptcha.com https://*.hcaptcha.com object-src 'none'
+    X-Frame-Options: SAMEORIGIN
+    Referrer-Policy: origin-when-cross-origin
 
 https://:project.pages.dev/*
   Link: <https://erisa.uk/:splat>; rel="canonical"
