@@ -2,10 +2,11 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2022-03-11 04:08:43.350579774 +0000
+# Last updated: 2022-05-17 01:14:48.6995836 +0100
 
 # Private use.
 awau.uk
+awau.dev
 
 # Joke redirect, source available: https://github.com/Erisa/dis.cord.gift
 cord.gift
@@ -26,7 +27,6 @@ erisa.nz
 erisa.eu.org
 erisa.wales
 erisa.cymru
-erisa.cf
 welshy.dev
 
 # You are probably not here.
@@ -38,8 +38,12 @@ evenfall.uk
 
 # Unused
 erisa.date
+erisa.gay
+erisa.name
+erisa.network
 i-wanna.date
 on-a.date
+hmpf.date
 
 # (not github)
 githug.cafe
