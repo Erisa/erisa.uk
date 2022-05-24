@@ -33,12 +33,15 @@ export async function onRequestPost(ctx) {
     }
 
     // Send message :)
-    // Just remove the comment from whichever one you want
-    await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL);
-    // await sendEmailWithSendGrid();
+    const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL);
 
-    // Success
-    return new Response(null, { status: 200, headers: corsHeaders });
+    if (discordResp.status === 200 || discordResp.status === 204) {
+        // Success
+        return new Response('Success.', { status: 200, headers: corsHeaders });
+    } else {
+        return new Response('An error ocurred while sending the message.', { status: 500, headers: corsHeaders})
+    }
+
 }
 
 async function verifyHcaptcha(response, ip, secret, siteKey) {
@@ -60,7 +63,7 @@ async function sendDiscordMessage(details, webhookUrl) {
     // Make sure to set the "DISCORD_WEBHOOK_URL" variable
     // wrangler secret put DISCORD_WEBHOOK_URL
     console.log('sending to ' + webhookUrl)
-    await fetch(webhookUrl, {
+    return fetch(webhookUrl, {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
@@ -68,21 +71,21 @@ async function sendDiscordMessage(details, webhookUrl) {
     body: JSON.stringify({
         content: "<@228574821590499329>",
         embeds: [{
-        title: 'New Message',
-        type: 'rich',
-        fields: [
-            {
-            name: 'Name/Email',
-            value: details.name,
-            }
-            // {
-            //   name: 'Message',
-            //   value: details.message,
-            // }
-        ]
+            title: 'New Message',
+            type: 'rich',
+            fields: [
+                {
+                name: 'Name/Email',
+                value: details.name,
+                }
+                // {
+                //   name: 'Message',
+                //   value: details.message,
+                // }
+            ]
         },
         {
-        description: details.message
+            description: details.message
         }],
     }),
     });

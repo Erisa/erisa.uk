@@ -23,6 +23,9 @@ async function onSubmit(token) {
     //hcaptcha.reset();
 
     document.getElementById('error').innerText = 'Sent!';
+  }
+  else if (res.status === 500){
+    document.getElementById('error').innerText = " An error ocurred while sending the message.";
   } else {
     const response = await res.text();
     document.getElementById('error').innerText = response;
