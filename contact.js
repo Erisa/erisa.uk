@@ -3,7 +3,7 @@ async function onSubmit(token) {
   const message = document.getElementById('message').value;
   const captcha = token;
 
-  const res = await fetch('https://erisa.uk/api/submit-contact', {
+  const res = await fetch('/api/submit-contact', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'

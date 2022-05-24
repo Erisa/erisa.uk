@@ -8,7 +8,6 @@ That's it. Thanks.
 - [Project-Evenfall/evenfall.site](https://github.com/Project-Evenfall/evenfall.site)
 
 ## Credits
- - Me
- - https://www.albionresearch.com/misc/obfuscator.php
- - You
+ - [Albion Research](https://www.albionresearch.com/) for [Email Address Obfuscator](https://www.albionresearch.com/misc/obfuscator.php)
+ - [WalshyDev](https://github.com/WalshyDev) for [contact-form-with-workers](https://github.com/WalshyDev/contact-form-with-workers)
  
