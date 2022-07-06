@@ -11,8 +11,10 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s
 ## Thankfully OpenSSH 8.2 is now well-spread, Debian 11 and Ubuntu 20.04 support it out of the box.
 ## So unless you're doing something weird it likely isn't an issue.
 
-# FIDO/U2F Security key. Even more secure than Krypton.
+# FIDO/U2F Security key. Superduper secure.
+# First is Solo v1, second is Solo v2
 sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIO73DhuVMhyjSRzm0W00uPju+lhwZhbP6ndreprhbHFlAAAABHNzaDo= erisa@Tuturu
+sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIMLtvibqq8epU41t4RN4AbGx2hXhrTnuCeQTIJCjgP3oAAAABHNzaDo= erisa@Tuturu
 # ^ Should be ignored if you don't have a supported OpenSSH version. 
 
 # Akamai MFA! Basically Krypton but acquired by Akamai and somehow with worse UX, but probably more secure.
