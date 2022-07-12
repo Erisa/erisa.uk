@@ -32,5 +32,10 @@
     Content-Type: text/plain
     ! link
 
-/*
+https://:project.pages.dev/*
   Link: <https://erisa.uk/:splat>; rel="canonical"
+  X-Robots-Tag: noindex
+
+https://:commit.:project.pages.dev/*
+  Link: <https://erisa.uk/:splat>; rel="canonical"
+
