@@ -4,6 +4,33 @@
     Content-Security-Policy: default-src 'self' 'unsafe-inline' https://erisa.uk https://static.cloudflareinsights.com https://cloudflareinsights.com https://cdn.erisa.moe https://cdn.erisa.uk https://js.hcaptcha.com https://*.hcaptcha.com object-src 'none'
     X-Frame-Options: SAMEORIGIN
     Referrer-Policy: origin-when-cross-origin
+    Link: <style.css>; rel=preload; as=style, <https://static.cloudflareinsights.com/beacon.min.js>; rel=preload; as=script
+
+/contact
+  Link: <style.css>; rel=preload; as=style, <https://js.hcaptcha.com/1/api.js>; rel=preload; as=script, <contact.js>; rel=preload; as=script, <https://static.cloudflareinsights.com/beacon.min.js>; rel=preload; as=script
+
+/
+  Link: <details-polyfill.js>; rel=preload; as=script, <style.css>; rel=preload; as=style, <script.js>; rel=preload; as=script, <https://static.cloudflareinsights.com/beacon.min.js>; rel=preload; as=script
+
+/*.js
+  ! Link
+
+/*.css
+  ! Link
+
+/*.txt
+  ! Link
+
+/*.md
+  ! Link
+
+/LICENSE 
+    Content-Type: text/plain
+    ! Link
+
+/keys
+    Content-Type: text/plain
+    ! link
 
 https://:project.pages.dev/*
   Link: <https://erisa.uk/:splat>; rel="canonical"
@@ -12,8 +39,3 @@ https://:project.pages.dev/*
 https://:commit.:project.pages.dev/*
   Link: <https://erisa.uk/:splat>; rel="canonical"
 
-/LICENSE 
-    Content-Type: text/plain
-
-/keys
-    Content-Type: text/plain

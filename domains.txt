@@ -2,7 +2,7 @@
 # Domains that redirect to domains not in this list may not be in complete control.
 # Content outside of these domains cannot be guarenteed to be owned or managed by Erisa.
 
-# Last updated: 2022-07-12 00:13:17.626603741 +0100
+# Last updated: 2022-08-19 11:48:54.400287288 +0100
 
 # Private use.
 awau.uk
@@ -40,19 +40,21 @@ evenfall.uk
 erisa.date
 erisa.gay
 erisa.name
-erisa.network
 i-wanna.date
 on-a.date
 hmpf.date
-erisa.wiki
 erisa.cyou
 potatotown.net
 
 # (not github)
 githug.cafe
 
-# Internal use!
+# Private/internal use
 lewd.tech
+erisa.wiki
+
+# ???
+erisa.network
 
 # Donated domain for https://whats-th.is, only controlled at a registry and DNS level. 
 # Content served from this domain is not controlled or endorsed by Erisa.
