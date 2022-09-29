@@ -33,7 +33,7 @@ export async function onRequestPost(ctx) {
     }
 
     // Send message :)
-    const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL);
+    const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL, ctx.env.DISCORD_TOKEN);
 
     if (discordResp.status === 200 || discordResp.status === 204) {
         // Success
@@ -59,7 +59,7 @@ async function verifyTurnstile(response, ip, secret, siteKey) {
     return json.success;
 }
 
-async function sendDiscordMessage(details, webhookUrl) {
+async function sendDiscordMessage(details, webhookUrl, token) {
     // Make sure to set the "DISCORD_WEBHOOK_URL" variable
     // wrangler secret put DISCORD_WEBHOOK_URL
     console.log('sending to ' + webhookUrl)
@@ -67,6 +67,7 @@ async function sendDiscordMessage(details, webhookUrl) {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
+        'Authorization': token ? token : ""
     },
     body: JSON.stringify({
         content: "<@228574821590499329>",
