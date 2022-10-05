@@ -48,7 +48,6 @@ h1, h2, h3 {
     color: #C63B65;
 }
 
-
 ul {
     list-style-type: none;
     margin-top: 0px;
@@ -94,6 +93,7 @@ li::before {
             url('../fonts/inter-v8-latin-regular.woff2') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
 
-.hcaptcha-disclaimer {
-    font-size: 16px;
+#turnstile {
+    width: 300px;
+    height: 72.9px
 }

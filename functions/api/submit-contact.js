@@ -22,14 +22,14 @@ export async function onRequestPost(ctx) {
     }
 
     // Validate the captcha
-    const captchaVerified = await verifyHcaptcha(
+    const captchaVerified = await verifyTurnstile(
         obj.captcha,
         ctx.request.headers.get('cf-connecting-ip'),
-        ctx.env.HCAPTCHA_SECRET,
-        ctx.env.HCAPTCHA_SITE_KEY
+        ctx.env.TURNSTILE_SECRET_KEY,
+        ctx.env.TURNSTILE_SITE_KEY
     );
     if (!captchaVerified) {
-        return new Response('Invalid captcha', { status: 400, headers: corsHeaders });
+        return new Response('Invalid captcha.', { status: 400, headers: corsHeaders });
     }
 
     // Send message :)
@@ -44,10 +44,10 @@ export async function onRequestPost(ctx) {
 
 }
 
-async function verifyHcaptcha(response, ip, secret, siteKey) {
+async function verifyTurnstile(response, ip, secret, siteKey) {
     // Make sure to set the "HCAPTCHA_SECRET" & "HCAPTCHA_SITE_KEY" variable
     // wrangler secret put HCAPTCHA_SECRET & wrangler secret put HCAPTCHA_SITE_KEY
-    const res = await fetch('https://hcaptcha.com/siteverify', {
+    const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
