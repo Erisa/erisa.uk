@@ -22,18 +22,18 @@ export async function onRequestPost(ctx) {
     }
 
     // Validate the captcha
-    const captchaVerified = await verifyHcaptcha(
+    const captchaVerified = await verifyTurnstile(
         obj.captcha,
         ctx.request.headers.get('cf-connecting-ip'),
-        ctx.env.HCAPTCHA_SECRET,
-        ctx.env.HCAPTCHA_SITE_KEY
+        ctx.env.TURNSTILE_SECRET_KEY,
+        ctx.env.TURNSTILE_SITE_KEY
     );
     if (!captchaVerified) {
-        return new Response('Invalid captcha', { status: 400, headers: corsHeaders });
+        return new Response('Invalid captcha.', { status: 400, headers: corsHeaders });
     }
 
     // Send message :)
-    const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL);
+    const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL, ctx.env.DISCORD_TOKEN);
 
     if (discordResp.status === 200 || discordResp.status === 204) {
         // Success
@@ -44,10 +44,10 @@ export async function onRequestPost(ctx) {
 
 }
 
-async function verifyHcaptcha(response, ip, secret, siteKey) {
+async function verifyTurnstile(response, ip, secret, siteKey) {
     // Make sure to set the "HCAPTCHA_SECRET" & "HCAPTCHA_SITE_KEY" variable
     // wrangler secret put HCAPTCHA_SECRET & wrangler secret put HCAPTCHA_SITE_KEY
-    const res = await fetch('https://hcaptcha.com/siteverify', {
+    const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
@@ -59,7 +59,7 @@ async function verifyHcaptcha(response, ip, secret, siteKey) {
     return json.success;
 }
 
-async function sendDiscordMessage(details, webhookUrl) {
+async function sendDiscordMessage(details, webhookUrl, token) {
     // Make sure to set the "DISCORD_WEBHOOK_URL" variable
     // wrangler secret put DISCORD_WEBHOOK_URL
     console.log('sending to ' + webhookUrl)
@@ -67,6 +67,7 @@ async function sendDiscordMessage(details, webhookUrl) {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
+        'Authorization': token ? token : ""
     },
     body: JSON.stringify({
         content: "<@228574821590499329>",

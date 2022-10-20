@@ -1,7 +1,9 @@
-async function onSubmit(token) {
+turnstileId = turnstile.render("#turnstile", {sitekey: "0x4AAAAAAAAllJbp7rCcksvJ"})
+
+async function onSubmit() {
   const name = document.getElementById('name').value;
   const message = document.getElementById('message').value;
-  const captcha = token;
+  const captcha = turnstile.getResponse(turnstileId);
 
   const res = await fetch('/api/submit-contact', {
     method: 'POST',
@@ -20,20 +22,20 @@ async function onSubmit(token) {
     // Reset fields
     document.getElementById('name').value = '';
     document.getElementById('message').value = '';
-    //hcaptcha.reset();
-
+    turnstile.reset('#turnstile');
     document.getElementById('error').innerText = 'Sent!';
   }
   else if (res.status === 500){
     document.getElementById('error').innerText = " An error ocurred while sending the message.";
+    turnstile.reset('#turnstile');
   } else {
     const response = await res.text();
+    turnstile.reset('#turnstile');
     document.getElementById('error').innerText = response;
   }
 }
 
-function validate(event) {
-  event.preventDefault();
+function validate() {
   const name = document.getElementById('name').value;
   const message = document.getElementById('message').value;
 
@@ -41,7 +43,7 @@ function validate(event) {
     document.getElementById('error').innerText = 'Please enter your name and message!'
     return;
   } else {
-    hcaptcha.execute();
+    onSubmit();
   }
 }
 

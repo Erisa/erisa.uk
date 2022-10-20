@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="/fonts/inter-v8-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style.css">
-    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
     <script src="contact.js" async defer></script>
 
     <title>
@@ -39,24 +39,17 @@
                 <textarea id="message" cols="50" rows="4" maxlength="4096" wrap="soft"></textarea>
             </div>
 
+            <div id="turnstile" class="cf-turnstile" data-sitekey="0x4AAAAAAAAllJbp7rCcksvJ" data-size="managed"></div>
+            <button class="button" onclick="validate(event)" type="submit" id="submit">Send message</button>
             <diV>
                 <span id="error"></span>
             </diV>
-            <div id="hcaptcha" class="h-captcha" data-sitekey="c22b5dbb-fb8b-4220-9d5e-d632cb6fe9e2"
-                data-callback="onSubmit" data-size="invisible"></div>
-            <button class="button" onclick="validate(event)" type="submit" id="submit">Send message</button>
             </p>
         </div>
         </p>
     </main>
 
     <footer>
-        <hr>
-        <p class="hcaptcha-disclaimer">
-            This page is protected by hCaptcha and its
-            <a href="https://hcaptcha.com/privacy">Privacy Policy</a> and
-            <a href="https://hcaptcha.com/terms">Terms of Service</a> apply.
-        </p>
         <p>
             <hr>
             <a href="/">Home</a> <span class="smallbar">|</span>
