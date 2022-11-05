@@ -48,6 +48,14 @@ h1, h2, h3 {
     color: #C63B65;
 }
 
+.cloudflare {
+    color: #f6821f;
+}
+
+.cloudflare a:hover {
+    color: #fbad41;
+}
+
 ul {
     list-style-type: none;
     margin-top: 0px;
