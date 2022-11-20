@@ -4,7 +4,7 @@
 # To programatically read this list, ignore lines starting with # and empty lines.
 
 # This is not an exhaustive list. I own other domains that are not listed publicly.
-# Last updated: 2022-11-19 20:19:56.5396746 +0000
+# Last updated: 2022-11-20 03:37:11.1418363 +0000
 
 # Matrix (Synapse)
 awau.uk
@@ -28,6 +28,7 @@ erisa.dev
 erisa.link
 
 # You are here.
+erisa.domains
 erisa.uk
 erisa.moe
 erisa.nz
