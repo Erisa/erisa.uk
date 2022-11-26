@@ -12,7 +12,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s
 ## So unless you're doing something weird it likely isn't an issue.
 
 # FIDO/U2F Security key. Superduper secure.
-# First is Solo v2, second two are YubiKey 5
+# First is Solo v2, last two are YubiKey 5
 sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIMLtvibqq8epU41t4RN4AbGx2hXhrTnuCeQTIJCjgP3oAAAABHNzaDo= erisa@Tuturu
 sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIHlEPgzhv+X7mp5BauKHbSeAEFOYY4/6eADz+1lwyk10AAAABHNzaDo= erisa@Tuturu
 sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAINmuuaTxOlCfcnxhYX3ysjdXgYWxkJBniRSydYCa3yxcAAAABHNzaDo= erisa@Tuturu
