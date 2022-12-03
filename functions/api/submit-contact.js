@@ -53,16 +53,21 @@ export async function onRequestPost(ctx) {
 }
 
 async function verifyTurnstile(response, ip, secret, siteKey) {
+	let formData = new FormData();
+
+	formData.append('response', response);
+	formData.append('remoteip', ip);
+	formData.append('secret', secret);
+	formData.append('sitekey', siteKey);
+
 	// Make sure to set the "HCAPTCHA_SECRET" & "HCAPTCHA_SITE_KEY" variable
 	const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
 		method: 'POST',
-		headers: {
-			'Content-Type': 'application/x-www-form-urlencoded',
-		},
-		body: `response=${response}&remoteip=${ip}&secret=${secret}&sitekey=${siteKey}`,
+		body: formData,
 	});
 
 	const json = await res.json();
+
 	return json.success;
 }
 
@@ -86,10 +91,6 @@ async function sendDiscordMessage(details, webhookUrl, token) {
 							name: 'Name/Email',
 							value: details.name,
 						},
-						// {
-						//   name: 'Message',
-						//   value: details.message,
-						// }
 					],
 				},
 				{
