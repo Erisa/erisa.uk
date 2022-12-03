@@ -1,0 +1,17 @@
+---
+import "../styles/global.css";
+import "@fontsource/inter";
+
+export interface Props {
+	title: string;
+}
+
+const {
+	title = "Erisa's Website",
+} = Astro.props;
+
+---
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{title}</title>
+

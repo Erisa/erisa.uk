@@ -1,0 +1,15 @@
+<p id="domains">
+    Loading.. If it doesn't load or you have JavaScript disabled,
+    <a href="domains.txt">click here.</a>.  
+    Sorry for the trouble!
+</p>
+
+<script>
+    fetch('domains.txt')
+        .then(function (response) {
+            return response.text();
+        })
+        .then(function (domains) {
+            document.getElementById('domains').innerText = domains
+        });
+</script>

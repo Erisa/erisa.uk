@@ -2,6 +2,13 @@
 It's a website. You should go to [the website](https://erisa.uk) or view the source on this repo.  
 That's it. Thanks.
 
+## The website is now written in [Astro](https://astro.build/)??
+
+Rough guide:
+- `npm install` (grab deps)
+- `npm run dev` (dev server)
+- `npm run build` (build to `/dist`)
+
 ## Similar Repos
 - [Erisa/erisa-games-archive](https://github.com/Erisa/erisa-games-archive)
 - [Erisa/awau.uk](https://github.com/Erisa/awau.uk)

@@ -164,3 +164,19 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/macos,linux,windows,jetbrains,visualstudiocode
 node_modules/.mf/cf.json
+
+# build output
+dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
