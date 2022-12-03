@@ -2,92 +2,100 @@
 // Credit: @WalshyDev
 
 export async function onRequestPost(ctx) {
-    // dirty CORS response
-    const corsHeaders = {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "*",
-        "Access-Control-Allow-Headers": "*"
-    }
+	// dirty CORS response
+	const corsHeaders = {
+		'Access-Control-Allow-Origin': '*',
+		'Access-Control-Allow-Methods': '*',
+		'Access-Control-Allow-Headers': '*',
+	};
 
-    let obj;
-    try {
-        obj = await ctx.request.json();
-    } catch(e) {
-        return new Response('Invalid JSON body!', { status: 400, headers: corsHeaders });
-    }
+	let obj;
+	try {
+		obj = await ctx.request.json();
+	} catch (e) {
+		return new Response('Invalid JSON body!', {
+			status: 400,
+			headers: corsHeaders,
+		});
+	}
 
-    // Validate the JSON
-    if (!obj.name || !obj.message || !obj.captcha) {
-        return new Response('Invalid body', { status: 400, headers: corsHeaders });
-    }
+	// Validate the JSON
+	if (!obj.name || !obj.message || !obj.captcha) {
+		return new Response('Invalid body', { status: 400, headers: corsHeaders });
+	}
 
-    // Validate the captcha
-    const captchaVerified = await verifyTurnstile(
-        obj.captcha,
-        ctx.request.headers.get('cf-connecting-ip'),
-        ctx.env.TURNSTILE_SECRET_KEY,
-        ctx.env.TURNSTILE_SITE_KEY
-    );
-    if (!captchaVerified) {
-        return new Response('Invalid captcha.', { status: 400, headers: corsHeaders });
-    }
+	// Validate the captcha
+	const captchaVerified = await verifyTurnstile(
+		obj.captcha,
+		ctx.request.headers.get('cf-connecting-ip'),
+		ctx.env.TURNSTILE_SECRET_KEY,
+		ctx.env.TURNSTILE_SITE_KEY
+	);
+	if (!captchaVerified) {
+		return new Response('Invalid captcha.', {
+			status: 400,
+			headers: corsHeaders,
+		});
+	}
 
-    // Send message :)
-    const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL, ctx.env.DISCORD_TOKEN);
+	// Send message :)
+	const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL, ctx.env.DISCORD_TOKEN);
 
-    if (discordResp.status === 200 || discordResp.status === 204) {
-        // Success
-        return new Response('Success.', { status: 200, headers: corsHeaders });
-    } else {
-        return new Response('An error ocurred while sending the message.', { status: 500, headers: corsHeaders})
-    }
-
+	if (discordResp.status === 200 || discordResp.status === 204) {
+		// Success
+		return new Response('Success.', { status: 200, headers: corsHeaders });
+	} else {
+		return new Response('An error ocurred while sending the message.', {
+			status: 500,
+			headers: corsHeaders,
+		});
+	}
 }
 
 async function verifyTurnstile(response, ip, secret, siteKey) {
-    // Make sure to set the "HCAPTCHA_SECRET" & "HCAPTCHA_SITE_KEY" variable
-    // wrangler secret put HCAPTCHA_SECRET & wrangler secret put HCAPTCHA_SITE_KEY
-    const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: `response=${response}&remoteip=${ip}&secret=${secret}&sitekey=${siteKey}`
-    });
+	// Make sure to set the "HCAPTCHA_SECRET" & "HCAPTCHA_SITE_KEY" variable
+	const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/x-www-form-urlencoded',
+		},
+		body: `response=${response}&remoteip=${ip}&secret=${secret}&sitekey=${siteKey}`,
+	});
 
-    const json = await res.json();
-    return json.success;
+	const json = await res.json();
+	return json.success;
 }
 
 async function sendDiscordMessage(details, webhookUrl, token) {
-    // Make sure to set the "DISCORD_WEBHOOK_URL" variable
-    // wrangler secret put DISCORD_WEBHOOK_URL
-    console.log('sending to ' + webhookUrl)
-    return fetch(webhookUrl, {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-        'Authorization': token ? token : ""
-    },
-    body: JSON.stringify({
-        content: "<@228574821590499329>",
-        embeds: [{
-            title: 'New Message',
-            type: 'rich',
-            fields: [
-                {
-                name: 'Name/Email',
-                value: details.name,
-                }
-                // {
-                //   name: 'Message',
-                //   value: details.message,
-                // }
-            ]
-        },
-        {
-            description: details.message
-        }],
-    }),
-    });
+	// Make sure to set the "DISCORD_WEBHOOK_URL" variable
+	console.log('sending to ' + webhookUrl);
+	return fetch(webhookUrl, {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+			Authorization: token ? token : '',
+		},
+		body: JSON.stringify({
+			content: '<@228574821590499329>',
+			embeds: [
+				{
+					title: 'New Message',
+					type: 'rich',
+					fields: [
+						{
+							name: 'Name/Email',
+							value: details.name,
+						},
+						// {
+						//   name: 'Message',
+						//   value: details.message,
+						// }
+					],
+				},
+				{
+					description: details.message,
+				},
+			],
+		}),
+	});
 }

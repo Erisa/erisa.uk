@@ -1,19 +1,19 @@
 ---
-import "../styles/global.css";
+import '../styles/global.css';
 import '@fontsource/inter';
 
 export interface Props {
-	title: string;
-	description: string;
-	metaTitle?: string;
-	image?: string;
+  title: string;
+  description: string;
+  metaTitle?: string;
+  image?: string;
 }
 
 const {
-	title = "Erisa!!",
-	metaTitle = "It's me, Erisa!",
-	description = "Hiya! This website provides links to my stuff. I think that's about it, might be more.",
-	image = "https://cdn.erisa.uk/avatars/common.png",
+  title = 'Erisa!!',
+  metaTitle = "It's me, Erisa!",
+  description = "Hiya! This website provides links to my stuff. I think that's about it, might be more.",
+  image = 'https://cdn.erisa.uk/avatars/common.png',
 } = Astro.props;
 ---
 
@@ -22,11 +22,9 @@ const {
 	(*・ω・)ﾉ
 	I'm not the best at web development, if anything looks unusual then feel free to report it here: https://github.com/Erisa/erisa.uk/issues
 
--->
-
-<!-- Global Metadata -->
+--><!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Primary Meta Tags -->
@@ -49,5 +47,4 @@ const {
 <!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> -->
 
 <!-- Mastodon verification -->
-<link rel="me" href="https://awau.social/@erisa">
-
+<link rel="me" href="https://awau.social/@erisa" />
