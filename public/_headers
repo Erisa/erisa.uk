@@ -1,7 +1,7 @@
 /*
     Permissions-Policy: interest-cohort=()
     X-Content-Type-Options: nosniff
-    Content-Security-Policy: default-src 'self' 'unsafe-inline' https://erisa.uk https://static.cloudflareinsights.com https://cloudflareinsights.com https://cdn.erisa.moe https://cdn.erisa.uk https://challenges.cloudflare.com https://plausible-analytics.erisa.uk object-src 'none'
+    Content-Security-Policy: default-src 'self' 'unsafe-inline' https://erisa.uk https://static.cloudflareinsights.com https://cloudflareinsights.com https://cdn.erisa.moe https://cdn.erisa.uk https://challenges.cloudflare.com https://plausible-analytics.erisa.uk; object-src 'none'; font-src 'self' data:; 
     X-Frame-Options: SAMEORIGIN
     Referrer-Policy: origin-when-cross-origin
 #     Link: </style.css>; rel=preload; as=style, <https://static.cloudflareinsights.com/beacon.min.js>; rel=preload; as=script; crossorigin, </fonts/inter-v8-latin-regular.woff2>; rel=preload; as=font; type=font/woff2; crossorigin
