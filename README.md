@@ -11,13 +11,6 @@ Rough guide:
 - `npm run dev` (dev server)
 - `npm run build` (build to `/dist`)
 
-## Similar Repos
-
-- [Erisa/erisa-games-archive](https://github.com/Erisa/erisa-games-archive)
-- [Erisa/awau.uk](https://github.com/Erisa/awau.uk)
-- [Project-Evenfall/evenfall.site](https://github.com/Project-Evenfall/evenfall.site)
-
 ## Credits
 
-- [Albion Research](https://www.albionresearch.com/) for [Email Address Obfuscator](https://www.albionresearch.com/misc/obfuscator.php)
 - [WalshyDev](https://github.com/WalshyDev) for [contact-form-with-workers](https://github.com/WalshyDev/contact-form-with-workers)
