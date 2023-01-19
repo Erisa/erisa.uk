@@ -8,7 +8,8 @@ That's it. Thanks.
 Rough guide:
 
 - `npm install` (grab deps)
-- `npm run dev` (dev server)
+- `npm run start` (astro dev server)
+- `npm run dev` (cloudflare pages dev server)
 - `npm run build` (build to `/dist`)
 
 ## Credits

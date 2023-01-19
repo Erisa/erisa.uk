@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "astro dev",
+		"dev": "wrangler pages dev --proxy 3000 -- npm run start",
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
