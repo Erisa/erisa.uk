@@ -4,7 +4,7 @@
 # To programatically read this list, ignore lines starting with # and empty lines.
 
 # This is not an exhaustive list. I own other domains that are not listed publicly.
-# Last updated: 2022-11-20 03:37:11.1418363 +0000
+# Last updated: 2023-01-21 05:00:30.4599391 +0000
 
 # Matrix (Synapse)
 awau.uk
@@ -57,6 +57,7 @@ potatotown.net
 # ???
 erisa.network
 erisa.party
+ඞ.cc
 
 # (not github)
 githug.cafe
