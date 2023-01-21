@@ -15,6 +15,10 @@ const {
 	description = "Hiya! This website provides links to my stuff. I think that's about it, might be more.",
 	image = 'https://cdn.erisa.uk/avatars/common.png',
 } = Astro.props;
+
+let astroUrl = Astro.url
+astroUrl.pathname = astroUrl.pathname.replace('.html', '')
+
 ---
 
 <!--
