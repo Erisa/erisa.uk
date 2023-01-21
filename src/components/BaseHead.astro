@@ -38,14 +38,14 @@ astroUrl.pathname = astroUrl.pathname.replace('.html', '')
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={Astro.url} />
+<meta property="og:url" content={astroUrl} />
 <meta property="og:title" content={metaTitle} />
 <meta property="og:site_name" content="Erisa's Website" />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+<meta property="og:image" content={new URL(image, astroUrl)} />
 
 <!-- Twitter -->
-<meta property="twitter:url" content={Astro.url} />
+<meta property="twitter:url" content={astroUrl} />
 <meta property="twitter:title" content={metaTitle} />
 <meta property="twitter:description" content={description} />
 <!-- <meta property="twitter:image" content={new URL(image, Astro.url)} /> -->
