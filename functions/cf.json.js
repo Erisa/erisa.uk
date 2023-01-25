@@ -1,3 +1,3 @@
-export function onRequestGet({request}) {
-  return Response.json(request.cf)
+export function onRequestGet({ request }) {
+	return Response.json(request.cf);
 }

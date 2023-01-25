@@ -6,6 +6,6 @@ export default defineConfig({
 	site: 'https://erisa.uk',
 	integrations: [mdx()],
 	build: {
-		format: 'file'
-	}
+		format: 'file',
+	},
 });
