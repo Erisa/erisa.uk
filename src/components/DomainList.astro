@@ -1,15 +1,16 @@
-<p id="domains">
-	Loading.. If it doesn't load or you have JavaScript disabled,
-	<a href="domains.txt">click here.</a>. Sorry for the trouble!
-</p>
+---
+import { readFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'url';
 
-<script>
-	fetch('/domains.txt')
-		.then(function (response) {
-			return response.text();
-		})
-		.then(function (domains) {
-			const element: HTMLElement | null = document.getElementById('domains');
-			if (element !== null) element.innerText = domains;
-		});
-</script>
+const IS_PRODUCTION = import.meta.env.MODE === 'production';
+
+const path = dirname(fileURLToPath(import.meta.url));
+
+const domains = await readFile(
+	join(path, `${IS_PRODUCTION ? '/domains.txt' : '../../public/domains.txt'}`),
+	'utf-8'
+);
+---
+
+<p id="domains">{domains}</p>

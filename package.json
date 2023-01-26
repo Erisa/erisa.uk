@@ -14,6 +14,7 @@
 	"dependencies": {
 		"@astrojs/mdx": "^0.14.0",
 		"@fontsource/inter": "^4.5.14",
+		"@types/node": "^18.11.18",
 		"astro": "^1.9.2"
 	},
 	"devDependencies": {
