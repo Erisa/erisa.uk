@@ -1,5 +1,5 @@
 ---
-title: You passed the captcha! || Erisa
+title: You passed the captcha! | Erisa
 layout: '../layouts/Error.astro'
 ---
 
