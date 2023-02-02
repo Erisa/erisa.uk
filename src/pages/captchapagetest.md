@@ -5,6 +5,8 @@ layout: '../layouts/Error.astro'
 
 # You passed the captcha!
 
-Unfortunately, there is nothing here.
+You get a cookie. 🍪
+
+[Click here for a new captcha](/api/clear-clearance/captchapagetest)
 
 ---
