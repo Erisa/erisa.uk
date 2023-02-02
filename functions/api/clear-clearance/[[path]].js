@@ -6,11 +6,9 @@ export function onRequestGet(ctx) {
 
 	// for now lets just keep this simple
 	let domain = url.hostname;
-	if (url.hostname.includes('.erisa.uk'))
-	{
+	if (url.hostname.endsWith('.erisa.uk')) {
 		domain = 'erisa.uk'
-	} else if (url.hostname.includes('.erisa.pages.dev'))
-	{
+	} else if (url.hostname.endsWith('.erisa.pages.dev')) {
 		domain = 'erisa.pages.dev'
 	}
 
