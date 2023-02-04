@@ -20,23 +20,23 @@ export async function onRequestPost(ctx) {
 	}
 
 	// Validate the JSON
-	if (!obj.name || !obj.message) {
+	if (!obj.name || !obj.message || !obj.captcha) {
 		return new Response('Invalid body', { status: 400, headers: corsHeaders });
 	}
 
-	// // Validate the captcha
-	// const captchaVerified = await verifyTurnstile(
-	// 	obj.captcha,
-	// 	ctx.request.headers.get('cf-connecting-ip'),
-	// 	ctx.env.TURNSTILE_SECRET_KEY,
-	// 	ctx.env.TURNSTILE_SITE_KEY
-	// );
-	// if (!captchaVerified) {
-	// 	return new Response('Invalid captcha.', {
-	// 		status: 400,
-	// 		headers: corsHeaders,
-	// 	});
-	// }
+	// Validate the captcha
+	const captchaVerified = await verifyTurnstile(
+		obj.captcha,
+		ctx.request.headers.get('cf-connecting-ip'),
+		ctx.env.TURNSTILE_SECRET_KEY,
+		ctx.env.TURNSTILE_SITE_KEY
+	);
+	if (!captchaVerified) {
+		return new Response('Invalid captcha.', {
+			status: 400,
+			headers: corsHeaders,
+		});
+	}
 
 	// Send message :)
 	const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL, ctx.env.DISCORD_TOKEN);
