@@ -11,7 +11,7 @@
 		<textarea id="message" cols="50" rows="4" maxlength="4096" wrap="soft"></textarea>
 	</div>
 
-	<div id="turnstile" class="cf-turnstile" data-sitekey="0x4AAAAAAAAllJbp7rCcksvJ" data-size="normal"></div>
+	<!-- <div id="turnstile" class="cf-turnstile" data-sitekey="0x4AAAAAAAAllJbp7rCcksvJ" data-size="normal"></div> -->
 	<button class="button" onclick="validate(event)" type="submit" id="submit">Send message</button>
 	<div>
 		<span id="error"></span>
@@ -19,14 +19,14 @@
 </div>
 
 <script is:inline>
-	let turnstileId = turnstile.render('#turnstile', {
-		sitekey: '0x4AAAAAAAAllJbp7rCcksvJ',
-	});
+	// let turnstileId = turnstile.render('#turnstile', {
+	// 	sitekey: '0x4AAAAAAAAllJbp7rCcksvJ',
+	// });
 
 	async function onSubmit() {
 		const name = document.getElementById('name').value;
 		const message = document.getElementById('message').value;
-		const captcha = turnstile.getResponse(turnstileId);
+		// const captcha = turnstile.getResponse(turnstileId);
 
 		const res = await fetch('/api/submit-contact', {
 			method: 'POST',
@@ -36,7 +36,7 @@
 			body: JSON.stringify({
 				name,
 				message,
-				captcha,
+				// captcha,
 			}),
 		});
 
@@ -45,14 +45,14 @@
 			// Reset fields
 			document.getElementById('name').value = '';
 			document.getElementById('message').value = '';
-			turnstile.reset('#turnstile');
+			// turnstile.reset('#turnstile');
 			document.getElementById('error').innerText = 'Sent!';
 		} else if (res.status === 500) {
 			document.getElementById('error').innerText = ' An error ocurred while sending the message.';
-			turnstile.reset('#turnstile');
+			// turnstile.reset('#turnstile');
 		} else {
 			const response = await res.text();
-			turnstile.reset('#turnstile');
+			// turnstile.reset('#turnstile');
 			document.getElementById('error').innerText = response;
 		}
 	}
