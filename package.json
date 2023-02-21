@@ -12,13 +12,13 @@
 		"lint": "prettier --write ."
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^0.14.0",
-		"@fontsource/inter": "^4.5.14",
-		"@types/node": "^18.11.18",
-		"astro": "^1.9.2"
+		"@astrojs/mdx": "^0.17.0",
+		"@fontsource/inter": "^4.5.15",
+		"@types/node": "^18.14.0",
+		"astro": "^2.0.14"
 	},
 	"devDependencies": {
-		"prettier": "^2.8.0",
-		"prettier-plugin-astro": "^0.7.0"
+		"prettier": "^2.8.4",
+		"prettier-plugin-astro": "^0.8.0"
 	}
 }
