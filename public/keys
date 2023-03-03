@@ -1,11 +1,14 @@
-### Erisa SSH keys - Last updated 2022-11-26
+### Erisa SSH keys - Last updated 2023-03-03
 ## https://erisa.uk/keys
 
 # Krypton - https://krypt.co
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFN0J5f0HK+j6HgYOdFiO5CwdvMcFfeU+GyX57FrDjrk Pixel3
 
-# Backup key to avoid lockouts (Secured with password, hopefully rarely used, don't add if ur a security nut)
+# Backup key to avoid lockouts (Secured with password, hopefully rarely used)
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
+
+# Termius app, stored in Secure Enclave on iPhone 12 mini and secured with Face ID
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBA2Ij6Cct2LE3KBzrFGgp3Rl8CTYVvL0n3/P6JcbTt3ilvTM+D5aSwsyPw7BnlCx/xqW5URMA8fo03QegwK/bFM=
 
 ## Everything below requires OpenSSH 8.2 or higher! - Please don't use as your only activated keys if you dont have 8.2.
 ## Thankfully OpenSSH 8.2 is now well-spread, Debian 11 and Ubuntu 20.04 support it out of the box.
