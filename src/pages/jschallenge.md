@@ -1,6 +1,6 @@
 ---
 title: You passed the JS challenge! | Erisa
-layout: '../layouts/Error.astro'
+layout: '../layouts/Plain.astro'
 ---
 
 # You passed the JS challenge!
