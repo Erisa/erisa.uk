@@ -12,10 +12,10 @@
 		"lint": "prettier --write ."
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^0.17.0",
+		"@astrojs/mdx": "^0.18.0",
 		"@fontsource/inter": "^4.5.15",
-		"@types/node": "^18.14.0",
-		"astro": "^2.0.14"
+		"@types/node": "^18.15.0",
+		"astro": "^2.1.2"
 	},
 	"devDependencies": {
 		"prettier": "^2.8.4",
