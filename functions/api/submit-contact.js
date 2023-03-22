@@ -39,7 +39,7 @@ export async function onRequestPost(ctx) {
 	}
 
 	// Send message :)
-	const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL, ctx.env.DISCORD_TOKEN);
+	const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL);
 
 	if (discordResp.status === 200 || discordResp.status === 204) {
 		// Success
@@ -71,14 +71,13 @@ async function verifyTurnstile(response, ip, secret, siteKey) {
 	return json.success;
 }
 
-async function sendDiscordMessage(details, webhookUrl, token) {
+async function sendDiscordMessage(details, webhookUrl) {
 	// Make sure to set the "DISCORD_WEBHOOK_URL" variable
 	console.log('sending to ' + webhookUrl);
 	return fetch(webhookUrl, {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json',
-			Authorization: token ? token : '',
 		},
 		body: JSON.stringify({
 			content: '<@228574821590499329>',
