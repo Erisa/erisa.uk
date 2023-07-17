@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "wrangler pages dev --proxy 3000 -- npm run start",
+		"dev": "wrangler pages dev --compatibility-date=2023-07-17 --proxy 3000 -- npm run start",
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
@@ -19,6 +19,7 @@
 	},
 	"devDependencies": {
 		"prettier": "^3.0.0",
-		"prettier-plugin-astro": "^0.11.0"
+		"prettier-plugin-astro": "^0.11.0",
+		"wrangler": "^3.2.0"
 	}
 }
