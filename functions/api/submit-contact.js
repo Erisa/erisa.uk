@@ -42,7 +42,6 @@ export async function onRequestPost(ctx) {
 	const discordResp = await sendDiscordMessage(obj, ctx.env.DISCORD_WEBHOOK_URL);
 
 	if (discordResp.status === 200 || discordResp.status === 204) {
-		// Success
 		return new Response('Success.', { status: 200, headers: corsHeaders });
 	} else {
 		return new Response('An error ocurred while sending the message.', {
@@ -60,7 +59,6 @@ async function verifyTurnstile(response, ip, secret, siteKey) {
 	formData.append('secret', secret);
 	formData.append('sitekey', siteKey);
 
-	// Make sure to set the "HCAPTCHA_SECRET" & "HCAPTCHA_SITE_KEY" variable
 	const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
 		method: 'POST',
 		body: formData,
@@ -72,8 +70,6 @@ async function verifyTurnstile(response, ip, secret, siteKey) {
 }
 
 async function sendDiscordMessage(details, webhookUrl) {
-	// Make sure to set the "DISCORD_WEBHOOK_URL" variable
-	console.log('sending to ' + webhookUrl);
 	return fetch(webhookUrl, {
 		method: 'POST',
 		headers: {
