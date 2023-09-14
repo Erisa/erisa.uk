@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "wrangler pages dev --compatibility-date=2023-07-10 --proxy 3000 -- npm run start",
+		"dev": "wrangler pages dev --compatibility-date=2023-07-10 --proxy 4321 -- npm run start",
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
@@ -12,10 +12,10 @@
 		"lint": "prettier --write ."
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^0.19.7",
+		"@astrojs/mdx": "^1.1.0",
 		"@fontsource/inter": "^5.0.5",
 		"@types/node": "^18.15.0",
-		"astro": "^2.8.2"
+		"astro": "^3.1.0"
 	},
 	"devDependencies": {
 		"prettier": "^3.0.0",
