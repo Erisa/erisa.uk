@@ -1,4 +1,4 @@
-### Erisa SSH keys - Last updated 2023-04-23
+### Erisa SSH keys - Last updated 2023-10-24
 ## https://erisa.uk/keys
 
 # Backup key to avoid lockouts (Secured with password, hopefully rarely used)
@@ -6,6 +6,9 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s
 
 # Termius app, stored in Secure Enclave on iPhone 12 mini and secured with Face ID
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBA2Ij6Cct2LE3KBzrFGgp3Rl8CTYVvL0n3/P6JcbTt3ilvTM+D5aSwsyPw7BnlCx/xqW5URMA8fo03QegwK/bFM=
+
+# MacBook Pro, stored in Secure Enclave with https://github.com/maxgoedjen/secretive and protected by Touch ID
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHPqAis1/U0SPNVYJ+sWtXyS3jhE4r5cb4mO+2aKtrevUpV/c95e4WPSUXX0fGmgxzLh74W5oI5BUSzhYiOe90g= SSH-Key@secretive.Erisa’s-MacBook-Pro.local
 
 ## Everything below requires OpenSSH 8.2 or higher and will not work on e.g. Debian 10 or Ubuntu 18.04 or lower.
 ## So unless you're doing something weird it likely isn't an issue.
