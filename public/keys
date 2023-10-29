@@ -20,7 +20,4 @@ sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAIHlEPgzhv
 sk-ssh-ed25519@openssh.com AAAAGnNrLXNzaC1lZDI1NTE5QG9wZW5zc2guY29tAAAAINmuuaTxOlCfcnxhYX3ysjdXgYWxkJBniRSydYCa3yxcAAAABHNzaDo= erisa@Tuturu
 # ^ Should be ignored if you don't have a supported OpenSSH version. 
 
-# Akamai MFA! Basically Krypton but acquired by Akamai and somehow with worse UX, but probably more secure.
-sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBEjlDYC+PScjsLFB5FlC+ImxMxWw2b0K4H4+uMtJMLh6iIm1nJ9NeCUqudIK+6LQuB1gvpQc4M96gSGxVV/BJacAAAAJc3NoOmVyaXNh ssh:erisa
-
 ### End of Erisa SSH keys
