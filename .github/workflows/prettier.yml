@@ -14,7 +14,7 @@ jobs:
 
       - name: Run Prettier
         id: prettier-run
-        uses: rutajdash/prettier-cli-action@30325c923a7b131ab8b6c99e0aff38afaddb9643 # pin@v1.0.0
+        uses: rutajdash/prettier-cli-action@d42c4325a3b344f3bd4be482bc34de521998d557 # untagged
         with:
           config_path: ./.prettierrc.json
 
