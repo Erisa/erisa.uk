@@ -1,0 +1,27 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+  push:
+
+
+jobs:
+  prettier:
+    name: Prettier Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # pin@v2
+
+      - name: Run Prettier
+        id: prettier-run
+        uses: rutajdash/prettier-cli-action@30325c923a7b131ab8b6c99e0aff38afaddb9643 # pin@v1.0.0
+        with:
+          config_path: ./.prettierrc.json
+
+      - name: Prettier Output
+        if: ${{ failure() }}
+        shell: bash
+        run: |
+          echo "The following files are not formatted:"
+          echo "${{steps.prettier-run.outputs.prettier_output}}"
