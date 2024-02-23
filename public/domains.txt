@@ -71,5 +71,8 @@ erisa.wiki
 # Content served from this domain is not controlled or endorsed by Erisa.
 might-be-super.fun
 
+# AT Protocol (Bluesky) Personal Data Server (PDS)
+mraow.party
+
 # Joke
 nqqowxxbt8mqvtcuy3po39qeqkocv8wgt3cmk3sgyj9cz4zkayyu5rntv8jnyh7.com
