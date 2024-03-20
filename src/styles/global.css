@@ -24,7 +24,7 @@ body {
 #domains {
 	font-size: 14px;
 	background-color: #f1f1f1;
-	white-space: pre;
+	white-space: pre-wrap;
 }
 
 a {
