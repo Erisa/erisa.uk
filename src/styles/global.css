@@ -60,6 +60,10 @@ li::before {
 	content: '- ';
 }
 
+.ts a:hover {
+	color: #626263;
+}
+
 @media (prefers-color-scheme: dark) {
 	body,
 	input,
@@ -82,7 +86,6 @@ li::before {
 	a {
 		color: #3391ff;
 	}
-}
 
 #turnstile {
 	width: 300px;
