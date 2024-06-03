@@ -1,7 +1,7 @@
-### Erisa SSH keys - Last updated 2023-10-29
+### Erisa SSH keys - Last updated 2024-06-03
 ## https://erisa.uk/keys
 
-# Backup key to avoid lockouts (Secured with password, hopefully rarely used)
+# Previously a backup key, now secured by 1Password and in regular use.
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s erisa@tuturu
 
 # Termius app, stored in Secure Enclave on iPhone 12 mini and secured with Face ID
