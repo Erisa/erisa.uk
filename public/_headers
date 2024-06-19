@@ -1,0 +1,16 @@
+/*
+    Permissions-Policy: interest-cohort=()
+    X-Content-Type-Options: nosniff
+    Content-Security-Policy: default-src 'self' 'unsafe-inline' https://erisa.uk https://static.cloudflareinsights.com https://cloudflareinsights.com https://cdn.erisa.uk https://challenges.cloudflare.com https://plausible-analytics.erisa.uk; object-src 'none'; font-src 'self' data:;
+    X-Frame-Options: SAMEORIGIN
+    Referrer-Policy: origin-when-cross-origin
+
+/keys
+    Content-Type: text/plain
+
+https://:project.pages.dev/*
+    Link: <https://erisa.uk/:splat>; rel="canonical"
+    X-Robots-Tag: noindex
+
+https://:commit.:project.pages.dev/*
+    Link: <https://erisa.uk/:splat>; rel="canonical"

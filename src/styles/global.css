@@ -1,0 +1,103 @@
+body {
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	font-size: 21px;
+	padding: 0 10px;
+	font-family:
+		'Erifont',
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
+
+.smallbar {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
+
+#domains {
+	font-size: 18px;
+	background-color: #f1f1f1;
+	white-space: pre-wrap;
+}
+
+a {
+	color: #0077aa;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4882e0;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.2;
+}
+
+.erisa,
+h1 {
+	color: #c63b65;
+}
+
+ul {
+	list-style-type: none;
+	margin-top: 0px;
+}
+
+p {
+	margin-bottom: 9px;
+}
+
+li::before {
+	content: '- ';
+}
+
+.ts a:hover {
+	color: #626263;
+}
+
+@media (prefers-color-scheme: dark) {
+	body,
+	input,
+	textarea {
+		background-color: #1e1e1e;
+		color: white;
+	}
+
+	input,
+	textarea {
+		border-radius: 1px;
+		border-color: #75374a;
+	}
+
+	#domains {
+		background-color: #2b2b2b;
+		word-wrap: break-word;
+	}
+
+	a {
+		color: #3391ff;
+	}
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Erifont';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''),
+			url('/fonts/Erifont-Regular_1.ttf') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+#turnstile {
+	width: 300px;
+	height: 72.9px;
+}

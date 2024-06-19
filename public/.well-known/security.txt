@@ -1,0 +1,4 @@
+Contact: mailto:security@erisa.uk
+Expires: 2024-10-15T23:00:00.000Z
+Preferred-Languages: en
+Canonical: https://erisa.uk/.well-known/security.txt

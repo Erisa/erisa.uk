@@ -1,0 +1,16 @@
+---
+import '../styles/global.css';
+import '@fontsource/inter';
+
+export interface Props {
+	title: string;
+}
+
+const { title = "Erisa's Website" } = Astro.props;
+---
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{title}</title>
+
+<!-- Plausible Analytics -->
+<script defer data-domain="erisa.uk" src="https://plausible-analytics.erisa.uk/js/script.js"></script>

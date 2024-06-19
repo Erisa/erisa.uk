@@ -1,0 +1,16 @@
+---
+import { readFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'url';
+
+const IS_PRODUCTION = import.meta.env.MODE === 'production';
+
+const path = dirname(fileURLToPath(import.meta.url));
+
+const domains = await readFile(
+	join(path, `${IS_PRODUCTION ? '../domains.txt' : '../../public/domains.txt'}`),
+	'utf-8'
+);
+---
+
+<p id="domains">{domains}</p>
