@@ -1,0 +1,26 @@
+name: Prettier checks
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  prettier:
+    name: Prettier Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # pin@v2
+
+      - name: Run Prettier
+        id: prettier-run
+        uses: rutajdash/prettier-cli-action@d42c4325a3b344f3bd4be482bc34de521998d557 # untagged
+        with:
+          config_path: ./.prettierrc.json
+
+      - name: Prettier Output
+        if: ${{ failure() }}
+        shell: bash
+        run: |
+          echo "The following files are not formatted:"
+          echo "${{steps.prettier-run.outputs.prettier_output}}"

@@ -1,0 +1,37 @@
+---
+import PlainHead from '../components/PlainHead.astro';
+import PlainFooter from '../components/PlainFooter.astro';
+
+export interface Props {
+	content: {
+		title: string;
+	};
+}
+
+const {
+	content: { title },
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<!--
+
+ㄟ( ▔, ▔ )ㄏ
+
+-->
+
+	<head>
+		<PlainHead title={title} />
+	</head>
+
+	<body>
+		<main>
+			<slot />
+		</main>
+
+		<footer>
+			<PlainFooter />
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+{
+	"name": "erisa.uk",
+	"type": "module",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "wrangler pages dev --compatibility-date=2023-07-10 --proxy 4321 -- npm run start",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"lint": "prettier --write .",
+		"pin-actions": "pin-github-action .github/workflows/prettier.yml"
+	},
+	"dependencies": {
+		"@astrojs/mdx": "^2.2.0",
+		"@fontsource/inter": "^5.0.17",
+		"@types/node": "^20.11.30",
+		"astro": "^4.5.6"
+	},
+	"devDependencies": {
+		"pin-github-action": "^1.9.1",
+		"prettier": "^3.2.5",
+		"prettier-plugin-astro": "^0.13.0",
+		"wrangler": "^3.35.0"
+	}
+}
