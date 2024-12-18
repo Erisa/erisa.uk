@@ -16,7 +16,7 @@
 		"@astrojs/mdx": "^2.2.0",
 		"@fontsource/inter": "^5.0.17",
 		"@types/node": "^20.11.30",
-		"astro": "^4.16.2"
+		"astro": "^4.16.18"
 	},
 	"devDependencies": {
 		"pin-github-action": "^1.9.1",
