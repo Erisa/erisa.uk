@@ -1,4 +1,4 @@
-### Erisa SSH keys - Last updated 2024-06-03
+### Erisa SSH keys - Last updated 2025-01-04
 ## https://erisa.uk/keys
 
 # Previously a backup key, now secured by 1Password and in regular use.
@@ -6,6 +6,8 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF6/VkPm1iWNJChJxLyq59WECWuEfP7jbVZcPaEUuh1s
 
 # Termius app, stored in Secure Enclave on iPhone 12 mini and secured with Face ID
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBA2Ij6Cct2LE3KBzrFGgp3Rl8CTYVvL0n3/P6JcbTt3ilvTM+D5aSwsyPw7BnlCx/xqW5URMA8fo03QegwK/bFM=
+# Same but iPhone 13 Pro
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDvYZHuPObNerv+zA+WY7qNiBvzcbOHv1+dkcHrqXAufcXHz1TK2ibC2sr9EXX4uvnjIHtLAPAewWyuv15aO8eg=
 
 # MacBook Pro, stored in Secure Enclave with https://github.com/maxgoedjen/secretive and protected by Touch ID
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHPqAis1/U0SPNVYJ+sWtXyS3jhE4r5cb4mO+2aKtrevUpV/c95e4WPSUXX0fGmgxzLh74W5oI5BUSzhYiOe90g= SSH-Key@secretive.Erisa’s-MacBook-Pro.local
