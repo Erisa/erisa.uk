@@ -16,7 +16,7 @@ export function onRequestGet(ctx) {
 		status: 302,
 		headers: {
 			Location: url.toString(),
-			'Set-Cookie': `cf_clearance=invalid; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; path=/; domain=.${domain}`,
+			'Set-Cookie': `cf_clearance=invalid; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; path=/; domain=.${domain}; Priority=High; HttpOnly; Secure; SameSite=None; Partitioned`,
 		},
 	});
 }
