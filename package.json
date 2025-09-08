@@ -16,12 +16,12 @@
 		"@astrojs/mdx": "^4.0.8",
 		"@fontsource/inter": "^5.0.17",
 		"@types/node": "^20.11.30",
-		"astro": "^5.3.0"
+		"astro": "^5.7.10"
 	},
 	"devDependencies": {
 		"pin-github-action": "^1.9.1",
 		"prettier": "^3.2.5",
 		"prettier-plugin-astro": "^0.13.0",
-		"wrangler": "^3.109.1"
+		"wrangler": "^4.13.2"
 	}
 }
