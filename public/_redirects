@@ -2,8 +2,3 @@
 /LICENSE.txt /LICENSE
 /security.txt /.well-known/security.txt
 /captchapagetest /captcha
-https://erisa.uk/cf https://cf.erisa.uk
-https://erisa.uk/captcha https://erisa.pages.dev/captcha
-https://erisa.uk/challenge https://erisa.pages.dev/challenge
-https://erisa.uk/jschallenge https://erisa.pages.dev/jschallenge
-https://erisa.uk/api/clear-clearance/* https://erisa.uk/api/clear-clearance/:splat
