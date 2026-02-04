@@ -1,7 +1,4 @@
 {
-	"recommendations": [
-		"astro-build.astro-vscode",
-		"github.vscode-github-actions"
-	],
+	"recommendations": ["astro-build.astro-vscode", "github.vscode-github-actions"],
 	"unwantedRecommendations": []
 }

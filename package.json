@@ -10,6 +10,7 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"lint": "prettier --write .",
+		"lint:check": "prettier --check .",
 		"pin-actions": "pin-github-action .github/workflows/prettier.yml",
 		"deploy": "astro build && wispctl deploy -p dist -s erisa erisa.uk"
 	},
@@ -21,8 +22,8 @@
 	},
 	"devDependencies": {
 		"pin-github-action": "^1.9.1",
-		"prettier": "^3.2.5",
-		"prettier-plugin-astro": "^0.13.0",
+		"prettier": "^3.8.1",
+		"prettier-plugin-astro": "^0.14.1",
 		"wispctl": "^1.0.6",
 		"wrangler": "^4.60.0"
 	}
