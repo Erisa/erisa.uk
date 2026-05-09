@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: Deploy to Codeberg Pages
-    runs-on: ubuntu-latest
+    runs-on: codeberg-small
     steps:
       - name: Checkout Repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # pin@v6
