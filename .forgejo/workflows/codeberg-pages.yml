@@ -26,6 +26,6 @@ jobs:
           npm run build
       - uses: https://codeberg.org/git-pages/action@v2
         with:
-          site: 'https://${{ forge.repository_owner }}.codeberg.page/'
+          site: 'https://${{ forge.repository_owner }}.codeberg.page/erisa.uk'
           token: ${{ forge.token }}
           source: dist/
