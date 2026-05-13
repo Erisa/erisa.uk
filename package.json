@@ -15,10 +15,10 @@
 		"deploy": "astro build && wispctl deploy -p dist -s erisa erisa.uk"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^4.0.8",
+		"@astrojs/mdx": "^5.0.5",
 		"@fontsource/inter": "^5.0.17",
 		"@types/node": "^20.11.30",
-		"astro": "^5.18.1"
+		"astro": "^6.3.2"
 	},
 	"devDependencies": {
 		"pin-github-action": "^1.9.1",
