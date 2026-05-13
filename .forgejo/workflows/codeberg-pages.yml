@@ -29,3 +29,6 @@ jobs:
           site: 'https://${{ forge.repository_owner }}.codeberg.page/erisa.uk'
           token: ${{ forge.token }}
           source: dist/
+      - name: Clear CDN cache
+        run: |
+          curl -X POST -H "Authorization: ${{ secrets.CACHE_TOKEN }}" https://cache-clear-webhook-bnoi8.bunny.run/ -v
