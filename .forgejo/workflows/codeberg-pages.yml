@@ -32,4 +32,4 @@ jobs:
           path: megufont
       - name: Clear CDN cache
         run: |
-          curl -X POST -H "Authorization: ${{ secrets.CACHE_TOKEN }}" https://cache-clear-webhook-bnoi8.bunny.run/ -v
+          curl -X POST -H "Authorization: ${{ secrets.CACHE_TOKEN }}" https://cache-clear-webhook-bnoi8.bunny.run/5937223 -v
