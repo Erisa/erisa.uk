@@ -93,8 +93,9 @@ li::before {
 	font-family: 'Erifont';
 	font-style: normal;
 	font-weight: 500;
-	src: local(''),
-			url('/fonts/Erifont-Regular_1.ttf') format('woff2') /* Chrome 26+, Opera 23+, Firefox 39+ */
+	src:
+		local(''),
+		url('/fonts/Erifont-Regular_1.ttf') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
 }
 
 #turnstile {
