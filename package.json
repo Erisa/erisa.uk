@@ -15,16 +15,16 @@
 		"deploy": "astro build && wispctl deploy -p dist -s erisa erisa.uk"
 	},
 	"dependencies": {
-		"@astrojs/mdx": "^4.0.8",
+		"@astrojs/mdx": "^6.0.1",
 		"@fontsource/inter": "^5.0.17",
 		"@types/node": "^20.11.30",
-		"astro": "^5.18.1"
+		"astro": "^6.4.2"
 	},
 	"devDependencies": {
 		"pin-github-action": "^1.9.1",
-		"prettier": "^3.8.1",
+		"prettier": "^3.8.3",
 		"prettier-plugin-astro": "^0.14.1",
 		"wispctl": "^1.0.6",
-		"wrangler": "^4.75.0"
+		"wrangler": "^4.95.0"
 	}
 }
