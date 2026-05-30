@@ -3,7 +3,7 @@ name: Deploy to Codeberg Pages
 on:
   push:
     branches:
-      - main
+      - megufont
 
 jobs:
   deploy:
@@ -29,6 +29,7 @@ jobs:
           site: 'https://${{ forge.repository_owner }}.codeberg.page/erisa.uk'
           token: ${{ forge.token }}
           source: dist/
+          path: megufont
       - name: Clear CDN cache
         run: |
           curl -X POST -H "Authorization: ${{ secrets.CACHE_TOKEN }}" https://cache-clear-webhook-bnoi8.bunny.run/ -v
