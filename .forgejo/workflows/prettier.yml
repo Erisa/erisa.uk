@@ -1,0 +1,23 @@
+name: Prettier checks
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  prettier:
+    name: Prettier Check
+    runs-on: codeberg-tiny
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # pin@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # pin@v6
+        with:
+          node-version: '24'
+
+      - name: Run Prettier
+        run: |
+          npm ci
+          npm run lint:check

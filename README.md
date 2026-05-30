@@ -1,6 +1,6 @@
 # erisa.uk
 
-It's a website. You should go to [the website](https://erisa.uk) or view the source on this repo.  
+It's a website. You should go to [the website](https://erisa.uk) or view the source on this repo.
 That's it. Thanks.
 
 ## The website is now written in [Astro](https://astro.build/)??
@@ -8,8 +8,8 @@ That's it. Thanks.
 Rough guide:
 
 - `npm install` (grab deps)
-- `npm run start` (astro dev server)
-- `npm run dev` (cloudflare pages dev server)
+- `npm run dev` (astro dev server)
+- `npm run dev:wrangler` (cloudflare pages dev server)
 - `npm run build` (build to `/dist`)
 
 ## Credits

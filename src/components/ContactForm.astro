@@ -11,7 +11,7 @@
 		<textarea id="message" cols="50" rows="4" maxlength="4096" wrap="soft"></textarea>
 	</div>
 
-	<div id="turnstile" class="cf-turnstile" data-sitekey="0x4AAAAAAAAllJbp7rCcksvJ" data-size="normal"></div>
+	<div id="turnstile" class="cf-turnstile" data-sitekey="0x4AAAAAACBS7ZKasYlf9_92" data-size="normal"></div>
 	<button class="button" onclick="validate(event)" type="submit" id="submit">Send message</button>
 	<div>
 		<span id="error"></span>
@@ -20,7 +20,7 @@
 
 <script is:inline>
 	let turnstileId = turnstile.render('#turnstile', {
-		sitekey: '0x4AAAAAAAAllJbp7rCcksvJ',
+		sitekey: '0x4AAAAAACBS7ZKasYlf9_92',
 	});
 
 	async function onSubmit() {
@@ -28,7 +28,7 @@
 		const message = document.getElementById('message').value;
 		const captcha = turnstile.getResponse(turnstileId);
 
-		const res = await fetch('/api/submit-contact', {
+		const res = await fetch('https://contact-api.erisa.uk/', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',

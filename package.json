@@ -4,24 +4,27 @@
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "wrangler pages dev --compatibility-date=2023-07-10 --proxy 4321 -- npm run start",
-		"start": "astro dev",
+		"dev": "astro dev",
+		"dev:wrangler": "astro build && wrangler pages dev dist",
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
 		"lint": "prettier --write .",
-		"pin-actions": "pin-github-action .github/workflows/prettier.yml"
+		"lint:check": "prettier --check .",
+		"pin-actions": "pin-github-action .github/workflows/prettier.yml",
+		"deploy": "astro build && wispctl deploy -p dist -s erisa erisa.uk"
 	},
 	"dependencies": {
 		"@astrojs/mdx": "^4.0.8",
 		"@fontsource/inter": "^5.0.17",
 		"@types/node": "^20.11.30",
-		"astro": "^5.3.0"
+		"astro": "^5.18.1"
 	},
 	"devDependencies": {
 		"pin-github-action": "^1.9.1",
-		"prettier": "^3.2.5",
-		"prettier-plugin-astro": "^0.13.0",
-		"wrangler": "^3.109.1"
+		"prettier": "^3.8.1",
+		"prettier-plugin-astro": "^0.14.1",
+		"wispctl": "^1.0.6",
+		"wrangler": "^4.75.0"
 	}
 }
