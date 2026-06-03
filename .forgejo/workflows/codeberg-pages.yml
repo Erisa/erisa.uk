@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - lume
 
 jobs:
   deploy:
@@ -13,22 +14,27 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # pin@v6
 
-      - name: Setup Node.js
-        uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # pin@v6
-        with:
-          node-version: '24'
+      - name: Setup Deno
+        uses: https://github.com/denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282 # v2
 
-      - name: Install dependencies
-        run: |
-          npm ci
       - name: Build website
         run: |
-          npm run build
-      - uses: https://codeberg.org/git-pages/action@v2
+          deno task build
+      - name: Deploy to Codeberg Pages
+        uses: https://codeberg.org/git-pages/action@v2
+        if: github.ref_name == 'main'
         with:
-          site: 'https://${{ forge.repository_owner }}.codeberg.page/erisa.uk'
+          site: "https://${{ forge.repository_owner }}.codeberg.page/erisa.uk"
           token: ${{ forge.token }}
           source: dist/
+      - name: Deploy to Codeberg Pages (Lume)
+        uses: https://codeberg.org/git-pages/action@v2
+        if: github.ref_name == 'lume'
+        with:
+          site: "https://${{ forge.repository_owner }}.codeberg.page/erisa.uk"
+          token: ${{ forge.token }}
+          source: dist/
+          path: lume
       - name: Clear CDN cache
         run: |
           curl -X POST -H "Authorization: ${{ secrets.CACHE_TOKEN }}" https://cache-clear-webhook-bnoi8.bunny.run/ -v

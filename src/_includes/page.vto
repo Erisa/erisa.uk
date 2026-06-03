@@ -1,0 +1,31 @@
+---
+title: "Erisa!!"
+meta_title: "It's me, Erisa"
+description: "Hiya! This website provides links to my stuff. I think that's about it, might be more."
+image: "https://cdn.erisa.uk/avatars/common.png"
+turnstile: false
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{
+      await comp.BaseHead({ title, description, metaTitle: meta_title, image, url })
+    }}
+    {{ if turnstile }}
+      <script
+        src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+        class="turnstile"
+      ></script>
+    {{ /if }}
+  </head>
+
+  <body>
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      {{ await comp.Footer({ url }) }}
+    </footer>
+  </body>
+</html>

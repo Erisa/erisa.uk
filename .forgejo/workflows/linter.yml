@@ -1,0 +1,21 @@
+name: Deno lint & fmt
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  lint:
+    name: Deno lint & fmt
+    runs-on: codeberg-tiny
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # pin@v6
+
+      - name: Setup Deno
+        uses: https://github.com/denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282 # v2
+
+      - name: Lint & format check
+        run: |
+          deno lint
+          deno fmt --check
