@@ -1,7 +1,7 @@
 import lume from "lume/mod.ts";
-import mdx from "lume/plugins/mdx.ts";
 import jsx from "lume/plugins/jsx.ts";
 import lightningcss from "lume/plugins/lightningcss.ts";
+import mdx from "lume/plugins/mdx.ts";
 
 const site = lume({
   src: "./src",

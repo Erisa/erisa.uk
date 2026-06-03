@@ -7,9 +7,7 @@ image: "https://cdn.erisa.uk/avatars/common.png"
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{
-      await comp.BaseHead({ title, description, metaTitle: meta_title, image, url })
-    }}
+    {{ await comp.BaseHead({ title, description, metaTitle: meta_title, image, url }) }}
     <meta name="article:published_time" content="{{ date.toISOString() }}" />
   </head>
 
@@ -18,8 +16,7 @@ image: "https://cdn.erisa.uk/avatars/common.png"
       <a href="/blog/">← Back to blog</a>
       <h1>{{ title }}</h1>
       <p class="disclaimer">
-        Published on <code>{{ date.toLocaleDateString("en-CA") }}</code>, facts
-        and circumstances may have changed since publication.
+        Published on <code>{{ date.toLocaleDateString("en-CA") }}</code>, facts and circumstances may have changed since publication.
       </p>
     </header>
     <main>
@@ -43,8 +40,7 @@ image: "https://cdn.erisa.uk/avatars/common.png"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
-        async
-      >
+        async>
       </script>
     </aside>
 

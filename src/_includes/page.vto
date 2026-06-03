@@ -8,14 +8,9 @@ turnstile: false
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{
-      await comp.BaseHead({ title, description, metaTitle: meta_title, image, url })
-    }}
+    {{ await comp.BaseHead({ title, description, metaTitle: meta_title, image, url }) }}
     {{ if turnstile }}
-      <script
-        src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
-        class="turnstile"
-      ></script>
+      <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" class="turnstile"></script>
     {{ /if }}
   </head>
 
