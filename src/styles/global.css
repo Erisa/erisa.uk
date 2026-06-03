@@ -16,6 +16,8 @@ body {
     sans-serif,
     "Apple Color Emoji",
     "Segoe UI Emoji";
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .smallbar {

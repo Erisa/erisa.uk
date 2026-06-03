@@ -1,9 +1,9 @@
+const normalize = (path) => path.replace(/\/index\.html$/, "/").replace(/\/$/, "") || "/";
+
 export default function FooterLink(
   { url, href, children, content, target, rel },
 ) {
-  const isActive = url === href
-    || (href === "/" && url === "/index.html")
-    || (href !== "/" && url?.startsWith(href.replace(/\/$/, "")));
+  const isActive = normalize(url) === normalize(href);
 
   if (isActive) {
     return <>{children || content}</>;

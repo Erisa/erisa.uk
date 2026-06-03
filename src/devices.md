@@ -5,7 +5,7 @@ title: Erisa's Magnificent Devices
 
 <style>
   body { max-width: 850px; }
-  footer { max-width: 650px; margin: 0 auto; }
+  footer { max-width: 850px; }
 </style>
 
 # Erisa's Magnficent Devices
