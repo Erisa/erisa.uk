@@ -7,7 +7,7 @@ source on this repo. That's it. Thanks.
 
 Rough guide:
 
-- `deno task serve` (luma dev server)
+- `deno task serve` (lume dev server)
 - `deno task build` (build to `/dist`)
 
 ## Credits
