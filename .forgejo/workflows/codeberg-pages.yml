@@ -26,7 +26,7 @@ jobs:
           npm run build
       - uses: https://codeberg.org/git-pages/action@v2
         with:
-          site: 'https://${{ forge.repository_owner }}.codeberg.page/erisa.uk'
+          site: 'https://${{ forge.repository_owner }}.codeberg.page/erisa-uk'
           token: ${{ forge.token }}
           source: dist/
       - name: Clear CDN cache
