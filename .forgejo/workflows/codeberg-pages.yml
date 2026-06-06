@@ -24,14 +24,14 @@ jobs:
         uses: https://codeberg.org/git-pages/action@v2
         if: github.ref_name == 'main'
         with:
-          site: "https://${{ forge.repository_owner }}.codeberg.page/erisa.uk"
+          site: "https://${{ forge.repository_owner }}.codeberg.page/erisa-uk"
           token: ${{ forge.token }}
           source: dist/
       - name: Deploy to Codeberg Pages (Lume)
         uses: https://codeberg.org/git-pages/action@v2
         if: github.ref_name == 'lume'
         with:
-          site: "https://${{ forge.repository_owner }}.codeberg.page/erisa.uk"
+          site: "https://${{ forge.repository_owner }}.codeberg.page/erisa-uk"
           token: ${{ forge.token }}
           source: dist/
           path: lume
