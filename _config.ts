@@ -16,5 +16,7 @@ site.use(lightningcss());
 
 site.add("styles");
 site.copy("static", "/");
+site.copy("static/_headers", "/_headers");
+site.copy("static/_redirects", "/_redirects");
 
 export default site;
