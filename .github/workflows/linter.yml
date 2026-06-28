@@ -7,23 +7,23 @@ on:
 jobs:
   fmt:
     name: dprint check
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # pin@v6
 
       - name: dprint check
-        uses: https://github.com/dprint/check@2f1cf31537886c3bfb05591c031f7744e48ba8a1 # v2.2
+        uses: dprint/check@2f1cf31537886c3bfb05591c031f7744e48ba8a1 # v2.2
 
   lint:
     name: Deno lint
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # pin@v6
 
       - name: Setup Deno
-        uses: https://github.com/denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282 # v2
+        uses: denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282 # v2
 
       - name: Deno lint
         run: deno lint

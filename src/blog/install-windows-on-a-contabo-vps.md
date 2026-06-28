@@ -5,6 +5,7 @@ tagline: >-
   While Contabo does offer Windows Server, this solution uses your own custom
   Windows ISO, should work with any recent version of Windows and doesn't cost
   extra.
+image: "/img/contabo-windows/title.png"
 ---
 
 While [Contabo](https://contabo.com/) does offer Windows Server, this solution

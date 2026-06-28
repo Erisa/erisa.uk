@@ -1,13 +1,11 @@
 ---
-title: "Erisa!!"
-meta_title: "It's me, Erisa"
-description: "Hiya! This website provides links to my stuff. I think that's about it, might be more."
 image: "https://cdn.erisa.uk/avatars/common.png"
 ---
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{ await comp.BaseHead({ title, description, metaTitle: meta_title, image, url }) }}
+    {{ await comp.BaseHead({ title, description: tagline, metaTitle: title, image, url }) }}
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="article:published_time" content="{{ date.toISOString() }}" />
     <style>
     body {
@@ -25,10 +23,13 @@ image: "https://cdn.erisa.uk/avatars/common.png"
       <a href="/blog/">← Back to blog</a>
       <h1>{{ title }}</h1>
       <p class="disclaimer">
-        Published on <code>{{ date.toLocaleDateString("en-CA") }}</code>, facts and circumstances may have changed since publication.
+        Published on <b class="monospace">{{ date.toLocaleDateString("en-CA") }}</b>, facts and circumstances may have changed since publication.
       </p>
     </header>
     <main>
+      {{ if image && image !== "" }}
+        <img src="{{ image }}" alt="{{ title }}" style="width: 100%; margin-top: 1rem" />
+      {{ /if }}
       {{ content }}
     </main>
 

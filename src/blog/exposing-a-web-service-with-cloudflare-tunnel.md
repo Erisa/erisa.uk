@@ -2,6 +2,7 @@
 title: "Exposing a web service with Cloudflare Tunnel"
 date: "2022-02-08"
 tagline: "What if you could host a web service with no ports exposed? With Cloudflare Tunnel, you can!"
+image: "/img/cloudflared/title.jpg"
 ---
 
 There are lots of ways to host a web service.\
