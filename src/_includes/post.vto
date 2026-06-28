@@ -1,0 +1,61 @@
+---
+image: "https://cdn.erisa.uk/avatars/common.png"
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ await comp.BaseHead({ title, description: tagline, metaTitle: title, image, url }) }}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="article:published_time" content="{{ date.toISOString() }}" />
+    <style>
+    body {
+      max-width: 850px;
+    }
+    footer {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="/blog/">← Back to blog</a>
+      <h1>{{ title }}</h1>
+      <p class="disclaimer">
+        Published on <b class="monospace">{{ date.toLocaleDateString("en-CA") }}</b>, facts and circumstances may have changed since publication.
+      </p>
+    </header>
+    <main>
+      {{ if image && image !== "" }}
+        <img src="{{ image }}" alt="{{ title }}" style="width: 100%; margin-top: 1rem" />
+      {{ /if }}
+      {{ content }}
+    </main>
+
+    <aside>
+      <a href="/blog/">← Back to blog</a>
+
+      <script
+        src="https://giscus.app/client.js"
+        data-repo="Erisa/erisa.dev"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk0MDI5MzkxNjk="
+        data-category="General"
+        data-category-id="DIC_kwDOGARdIc4B-7g_"
+        data-mapping="og:title"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+      </script>
+    </aside>
+
+    <footer>
+      {{ await comp.Footer({ url }) }}
+    </footer>
+  </body>
+</html>

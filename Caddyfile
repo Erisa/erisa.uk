@@ -1,0 +1,6 @@
+:80 {
+	root * /usr/share/caddy
+	file_server
+	static_headers
+	static_redirects
+}
