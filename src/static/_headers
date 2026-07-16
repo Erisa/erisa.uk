@@ -9,8 +9,13 @@
     Content-Type: text/plain
 
 https://:project.pages.dev/*
-    Link: <https://erisa.uk/:splat>; rel="canonical"
     X-Robots-Tag: noindex
 
 https://:commit.:project.pages.dev/*
-    Link: <https://erisa.uk/:splat>; rel="canonical"
+    X-Robots-Tag: noindex
+
+https://:site.netlify.app/*
+    X-Robots-Tag: noindex
+
+https://megufont.erisa.uk/*
+    X-Robots-Tag: noindex
