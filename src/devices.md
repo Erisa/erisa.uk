@@ -1,6 +1,9 @@
 ---
 layout: page.vto
 title: Erisa's Magnificent Devices
+metas:
+  title: Erisa's Magnificent Devices
+  description: A list of the various computers and phones I own or have owned.
 ---
 
 <style>
