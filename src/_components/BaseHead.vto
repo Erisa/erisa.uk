@@ -6,34 +6,13 @@
 -->
 
 <!-- Styling -->
-<link rel="stylesheet" href="/styles/global.css" />
 <meta charset="utf-8" />
-
-<!-- Global Metadata -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="generator" content="{Astro.generator}" />
+<link rel="stylesheet" href="/styles/global.css" />
+
+<!-- Mastodon verification -->
+<link rel="me" href="https://awau.social/@erisa" />
 
 <!-- Primary Meta Tags -->
 <title>{{ title }}</title>
 <meta name="title" content="{{ title }}" />
-<meta name="description" content="{{ description }}" />
-
-{{ set canonicalUrl = "https://erisa.uk" + url.replace(/\/index\.html$/, "/").replace(/\.html$/, "") }}
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ canonicalUrl }}" />
-<meta property="og:title" content="{{ meta_title }}" />
-<meta property="og:site_name" content="Erisa's Website" />
-<meta property="og:description" content="{{ description }}" />
-<meta property="og:image" content="{{ image }}" />
-
-<link rel="canonical" href="{{ canonicalUrl }}" />
-
-<!-- Twitter -->
-<meta property="twitter:url" content="{{ canonicalUrl }}" />
-<meta property="twitter:title" content="{{ metaTitle }}" />
-<meta property="twitter:description" content="{{ description }}" />
-
-<!-- Mastodon verification -->
-<link rel="me" href="https://awau.social/@erisa" />

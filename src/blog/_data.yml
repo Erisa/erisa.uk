@@ -1,1 +1,6 @@
 layout: "post.vto"
+metas:
+  title: "=title"
+  description: "=tagline"
+  image: "=image || https://cdn.erisa.uk/avatars/common.png"
+  "article:published_time": "=date"
