@@ -50,7 +50,7 @@ async function onSubmit() {
     turnstile.reset("#turnstile");
     document.getElementById("error").innerText = "Sent!";
   } else if (res.status === 500) {
-    document.getElementById("error").innerText = " An error ocurred while sending the message.";
+    document.getElementById("error").innerText = "An error occurred while sending the message.";
     turnstile.reset("#turnstile");
   } else {
     const response = await res.text();
